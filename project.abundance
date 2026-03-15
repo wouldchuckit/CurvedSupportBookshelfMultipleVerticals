@@ -238,6 +238,10 @@
         {
           "name": "CurveWidth",
           "ioValue": 300
+        },
+        {
+          "name": "CurveHeight",
+          "ioValue": 497.68749999999994
         }
       ],
       "topLevel": false,
@@ -285,6 +289,11 @@
               "name": "x length",
               "ioValue": 300,
               "currentEquation": "CurveWidth"
+            },
+            {
+              "name": "y length",
+              "ioValue": 497.68749999999994,
+              "currentEquation": "CurveHeight"
             }
           ]
         },
@@ -298,6 +307,11 @@
               "name": "x length",
               "ioValue": 300,
               "currentEquation": "CurveWidth"
+            },
+            {
+              "name": "y length",
+              "ioValue": 2488.4374999999995,
+              "currentEquation": "5*CurveHeight"
             }
           ]
         },
@@ -317,6 +331,11 @@
               "currentEquation": "-CurveWidth/2"
             },
             {
+              "name": "yDist",
+              "ioValue": 497.68749999999994,
+              "currentEquation": "CurveHeight"
+            },
+            {
               "name": "zDist",
               "ioValue": 0
             }
@@ -329,6 +348,10 @@
           "uniqueID": "id-127",
           "name": "atan(y/x)",
           "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 497.68749999999994
+            },
             {
               "name": "x",
               "ioValue": 300
@@ -350,6 +373,11 @@
               "name": "xDist",
               "ioValue": -150,
               "currentEquation": "-CurveWidth/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 248.84374999999997,
+              "currentEquation": "CurveHeight/2"
             },
             {
               "name": "zDist",
@@ -374,6 +402,10 @@
             {
               "name": "y-axis degrees",
               "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 31.081063968013048
             }
           ]
         },
@@ -403,6 +435,14 @@
             {
               "name": "x",
               "ioValue": 300
+            },
+            {
+              "name": "y",
+              "ioValue": 497.68749999999994
+            },
+            {
+              "name": "t",
+              "ioValue": 1.0283294255300954
             }
           ],
           "currentEquation": "sqrt(x^2 + y^2)/ (4 * cos(t))"
@@ -413,6 +453,12 @@
           "y": 0.42494226327944573,
           "uniqueID": "id-155",
           "name": "r * 2",
+          "ioValues": [
+            {
+              "name": "r",
+              "ioValue": 281.4107063802083
+            }
+          ],
           "currentEquation": "r * 2"
         },
         {
@@ -430,6 +476,10 @@
               "ioValue": 0
             },
             {
+              "name": "yDist",
+              "ioValue": -281.4107063802083
+            },
+            {
               "name": "zDist",
               "ioValue": 0
             }
@@ -441,6 +491,12 @@
           "y": 0.5542725173210161,
           "uniqueID": "id-187",
           "name": "-r",
+          "ioValues": [
+            {
+              "name": "r",
+              "ioValue": 281.4107063802083
+            }
+          ],
           "currentEquation": "-r"
         },
         {
@@ -452,6 +508,14 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -18.589293619791704
+            },
+            {
+              "name": "yDist",
+              "ioValue": 497.68749999999994
             },
             {
               "name": "zDist",
@@ -469,6 +533,10 @@
             {
               "name": "x",
               "ioValue": 300
+            },
+            {
+              "name": "r",
+              "ioValue": 281.4107063802083
             }
           ],
           "currentEquation": "-x + r"
@@ -479,6 +547,12 @@
           "y": 0.930715935334873,
           "uniqueID": "id-203",
           "name": "90 - t",
+          "ioValues": [
+            {
+              "name": "t",
+              "ioValue": 58.91893603198695
+            }
+          ],
           "currentEquation": "90 - t"
         },
         {
@@ -487,13 +561,25 @@
           "y": 0.7967667436489608,
           "uniqueID": "id-213",
           "name": "rad * 180/pi",
+          "ioValues": [
+            {
+              "name": "rad",
+              "ioValue": 1.0283294255300954
+            }
+          ],
           "currentEquation": "rad * 180/pi"
         },
         {
           "atomType": "Circle",
           "x": 0.47141316073354905,
           "y": 0.3903002309468822,
-          "uniqueID": "id-218"
+          "uniqueID": "id-218",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 562.8214127604166
+            }
+          ]
         },
         {
           "atomType": "Rectangle",
@@ -504,6 +590,10 @@
             {
               "name": "x length",
               "ioValue": 300
+            },
+            {
+              "name": "y length",
+              "ioValue": 562.8214127604166
             }
           ]
         },
@@ -520,6 +610,10 @@
             {
               "name": "xDist",
               "ioValue": -150
+            },
+            {
+              "name": "yDist",
+              "ioValue": 497.68749999999994
             },
             {
               "name": "zDist",
@@ -552,6 +646,10 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -281.4107063802083
             },
             {
               "name": "yDist",
@@ -614,6 +712,11 @@
               "name": "xDist",
               "ioValue": -150,
               "currentEquation": "-CurveWidth/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 248.84374999999997,
+              "currentEquation": "CurveHeight/2"
             },
             {
               "name": "zDist",
@@ -686,6 +789,10 @@
             {
               "name": "x length",
               "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 516.7375
             }
           ]
         },
@@ -703,6 +810,11 @@
               "name": "xDist",
               "ioValue": 4.999,
               "currentEquation": "5-.001"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 239.31874999999997,
+              "currentEquation": "CurveHeight/2 - WoodThick/2"
             },
             {
               "name": "zDist",
@@ -749,6 +861,10 @@
           "uniqueID": "id-1386",
           "name": "CH + WT",
           "ioValues": [
+            {
+              "name": "CH",
+              "ioValue": 497.68749999999994
+            },
             {
               "name": "WT",
               "ioValue": 19.05
@@ -1172,6 +1288,14 @@
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
+              "name": "xDist",
+              "ioValue": 150
+            },
+            {
+              "name": "yDist",
+              "ioValue": 258.36875
+            },
+            {
               "name": "zDist",
               "ioValue": 0
             }
@@ -1283,6 +1407,10 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
             },
             {
               "name": "yDist",
@@ -1723,6 +1851,10 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 258.36875
             }
           ]
         },
@@ -1739,6 +1871,10 @@
             {
               "name": "xDist",
               "ioValue": -9.525
+            },
+            {
+              "name": "yDist",
+              "ioValue": 9.525
             },
             {
               "name": "zDist",
@@ -1949,6 +2085,10 @@
               "ioValue": 300
             },
             {
+              "name": "yDist",
+              "ioValue": -48.095
+            },
+            {
               "name": "zDist",
               "ioValue": 0
             }
@@ -1981,6 +2121,10 @@
             {
               "name": "xDist",
               "ioValue": -9.525
+            },
+            {
+              "name": "yDist",
+              "ioValue": 200
             },
             {
               "name": "zDist",
@@ -2830,6 +2974,12 @@
           "y": 0.6613163972286373,
           "uniqueID": "id-4289",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 2
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -2838,6 +2988,12 @@
           "y": 0.5643187066974595,
           "uniqueID": "id-4290",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 3
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -2846,6 +3002,12 @@
           "y": 0.46270207852193995,
           "uniqueID": "id-4291",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 4
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -2854,6 +3016,12 @@
           "y": 0.34953810623556586,
           "uniqueID": "id-4292",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 5
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -2862,6 +3030,12 @@
           "y": 0.23868360277136258,
           "uniqueID": "id-4293",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 6
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -2870,6 +3044,12 @@
           "y": 0.12321016166281755,
           "uniqueID": "id-4294",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 7
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3152,6 +3332,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
                 }
               ]
             },
@@ -3194,6 +3386,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
                 }
               ]
             },
@@ -3455,6 +3659,10 @@
           "name": "StackUnit",
           "ioValues": [
             {
+              "name": "Index",
+              "ioValue": 2
+            },
+            {
               "name": "NumberElements",
               "ioValue": 10
             },
@@ -3570,6 +3778,16 @@
               "y": 0.7875288683602771,
               "uniqueID": "id-4456",
               "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 10
+                },
+                {
+                  "name": "i",
+                  "ioValue": 2
+                }
+              ],
               "currentEquation": "NumberE >= i >0"
             },
             {
@@ -3578,6 +3796,16 @@
               "y": 0.6073903002309469,
               "uniqueID": "id-4457",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -3589,6 +3817,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 10
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 10
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 10
                 }
               ]
             },
@@ -3631,6 +3871,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 10
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 10
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 10
                 }
               ]
             },
@@ -3640,6 +3892,16 @@
               "y": 0.5011547344110855,
               "uniqueID": "id-4462",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -3648,6 +3910,16 @@
               "y": 0.418013856812933,
               "uniqueID": "id-4463",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -3656,6 +3928,16 @@
               "y": 0.32101616628175517,
               "uniqueID": "id-4464",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -3664,6 +3946,16 @@
               "y": 0.6928406466512702,
               "uniqueID": "id-4465",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -3672,6 +3964,16 @@
               "y": 0.7829099307159354,
               "uniqueID": "id-4466",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             }
           ],
@@ -3842,6 +4144,10 @@
           "name": "StackUnit",
           "ioValues": [
             {
+              "name": "Index",
+              "ioValue": 3
+            },
+            {
               "name": "NumberElements",
               "ioValue": 10
             },
@@ -3957,6 +4263,16 @@
               "y": 0.7875288683602771,
               "uniqueID": "id-4539",
               "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 10
+                },
+                {
+                  "name": "i",
+                  "ioValue": 3
+                }
+              ],
               "currentEquation": "NumberE >= i >0"
             },
             {
@@ -3965,6 +4281,16 @@
               "y": 0.6073903002309469,
               "uniqueID": "id-4540",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -3976,6 +4302,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 20
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 20
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 20
                 }
               ]
             },
@@ -4018,6 +4356,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 20
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 20
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 20
                 }
               ]
             },
@@ -4027,6 +4377,16 @@
               "y": 0.5011547344110855,
               "uniqueID": "id-4545",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4035,6 +4395,16 @@
               "y": 0.418013856812933,
               "uniqueID": "id-4546",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4043,6 +4413,16 @@
               "y": 0.32101616628175517,
               "uniqueID": "id-4547",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4051,6 +4431,16 @@
               "y": 0.6928406466512702,
               "uniqueID": "id-4548",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4059,6 +4449,16 @@
               "y": 0.7829099307159354,
               "uniqueID": "id-4549",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             }
           ],
@@ -4229,6 +4629,10 @@
           "name": "StackUnit",
           "ioValues": [
             {
+              "name": "Index",
+              "ioValue": 5
+            },
+            {
               "name": "NumberElements",
               "ioValue": 10
             },
@@ -4344,6 +4748,16 @@
               "y": 0.7875288683602771,
               "uniqueID": "id-4622",
               "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 10
+                },
+                {
+                  "name": "i",
+                  "ioValue": 5
+                }
+              ],
               "currentEquation": "NumberE >= i >0"
             },
             {
@@ -4352,6 +4766,16 @@
               "y": 0.6073903002309469,
               "uniqueID": "id-4623",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4363,6 +4787,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 40
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 40
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 40
                 }
               ]
             },
@@ -4405,6 +4841,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 40
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 40
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 40
                 }
               ]
             },
@@ -4414,6 +4862,16 @@
               "y": 0.5011547344110855,
               "uniqueID": "id-4628",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4422,6 +4880,16 @@
               "y": 0.418013856812933,
               "uniqueID": "id-4629",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4430,6 +4898,16 @@
               "y": 0.32101616628175517,
               "uniqueID": "id-4630",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4438,6 +4916,16 @@
               "y": 0.6928406466512702,
               "uniqueID": "id-4631",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4446,6 +4934,16 @@
               "y": 0.7829099307159354,
               "uniqueID": "id-4632",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             }
           ],
@@ -4616,6 +5114,10 @@
           "name": "StackUnit",
           "ioValues": [
             {
+              "name": "Index",
+              "ioValue": 6
+            },
+            {
               "name": "NumberElements",
               "ioValue": 10
             },
@@ -4731,6 +5233,16 @@
               "y": 0.7875288683602771,
               "uniqueID": "id-4707",
               "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 10
+                },
+                {
+                  "name": "i",
+                  "ioValue": 6
+                }
+              ],
               "currentEquation": "NumberE >= i >0"
             },
             {
@@ -4739,6 +5251,16 @@
               "y": 0.6073903002309469,
               "uniqueID": "id-4708",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 6
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4750,6 +5272,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 50
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 50
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 50
                 }
               ]
             },
@@ -4792,6 +5326,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 50
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 50
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 50
                 }
               ]
             },
@@ -4801,6 +5347,16 @@
               "y": 0.5011547344110855,
               "uniqueID": "id-4713",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 6
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4809,6 +5365,16 @@
               "y": 0.418013856812933,
               "uniqueID": "id-4714",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 6
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4817,6 +5383,16 @@
               "y": 0.32101616628175517,
               "uniqueID": "id-4715",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 6
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4825,6 +5401,16 @@
               "y": 0.6928406466512702,
               "uniqueID": "id-4716",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 6
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4833,6 +5419,16 @@
               "y": 0.7829099307159354,
               "uniqueID": "id-4717",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 6
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             }
           ],
