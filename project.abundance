@@ -3291,7 +3291,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.374,
+          "y": 0.3903002309468822,
           "uniqueID": "id-4329",
           "name": "MoveZ"
         },
@@ -3312,7 +3312,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.5720000000000001,
+          "y": 0.5612009237875288,
           "uniqueID": "id-4344",
           "name": "RotateZ"
         },
@@ -3322,6 +3322,164 @@
           "y": 0.45958429561200925,
           "uniqueID": "id-4347",
           "ioValues": []
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.3678532901833873,
+          "y": 0.8683602771362586,
+          "uniqueID": "id-4350",
+          "name": "StackUnit",
+          "ioValues": [
+            {
+              "name": "Index",
+              "ioValue": 10
+            },
+            {
+              "name": "NumberElements",
+              "ioValue": 10
+            },
+            {
+              "name": "Shape",
+              "ioValue": 10
+            },
+            {
+              "name": "MoveX",
+              "ioValue": 10
+            },
+            {
+              "name": "MoveY",
+              "ioValue": 10
+            },
+            {
+              "name": "MoveZ",
+              "ioValue": 10
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 10
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 10
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 10
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-4352",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.10999999999999999,
+              "uniqueID": "id-4356",
+              "name": "Index"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.176,
+              "uniqueID": "id-4359",
+              "name": "NumberElements"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.242,
+              "uniqueID": "id-4362",
+              "name": "Shape"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.308,
+              "uniqueID": "id-4365",
+              "name": "MoveX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.374,
+              "uniqueID": "id-4368",
+              "name": "MoveY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.44,
+              "uniqueID": "id-4371",
+              "name": "MoveZ"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.506,
+              "uniqueID": "id-4374",
+              "name": "RotateX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.5720000000000001,
+              "uniqueID": "id-4377",
+              "name": "RotateY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.6380000000000001,
+              "uniqueID": "id-4380",
+              "name": "RotateZ"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.2632146709816613,
+              "y": 0.5889145496535797,
+              "uniqueID": "id-4383",
+              "name": "x + y",
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 1
+                },
+                {
+                  "name": "y",
+                  "ioValue": 1
+                }
+              ],
+              "currentEquation": "x + y"
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.4466019417475728,
+          "y": 0.9445727482678984,
+          "uniqueID": "id-4354",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "Copy and paste these as needed. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. ",
+          "global": true
         }
       ],
       "allConnectors": [
@@ -3364,6 +3522,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-4347",
           "ap2ID": "id-4285"
+        },
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-4350",
+          "ap2ID": "id-4354"
         }
       ],
       "fileTypeVersion": 1
