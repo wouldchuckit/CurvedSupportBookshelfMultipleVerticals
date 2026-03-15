@@ -38,7 +38,13 @@ Curved shelf support element consisting of two tangent circles. It works up unti
 
 This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+**Value:** true
+
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-4408.svg?v=d34rj5)
+
+
 
 Copy and paste these as needed. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. 
 

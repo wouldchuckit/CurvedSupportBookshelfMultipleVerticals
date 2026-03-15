@@ -3101,8 +3101,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.25782092772384035,
-      "y": 0.5542725173210161,
+      "x": 0.26591154261057176,
+      "y": 0.5635103926096998,
       "uniqueID": "id-4283",
       "name": "Stacker",
       "ioValues": [
@@ -3167,6 +3167,12 @@
           "y": 0.765242494226328,
           "uniqueID": "id-4288",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 1
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3175,6 +3181,12 @@
           "y": 0.6613163972286373,
           "uniqueID": "id-4289",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 2
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3183,6 +3195,12 @@
           "y": 0.5643187066974595,
           "uniqueID": "id-4290",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 3
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3191,6 +3209,12 @@
           "y": 0.46270207852193995,
           "uniqueID": "id-4291",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 4
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3199,6 +3223,12 @@
           "y": 0.34953810623556586,
           "uniqueID": "id-4292",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 5
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3207,6 +3237,12 @@
           "y": 0.23868360277136258,
           "uniqueID": "id-4293",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 6
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3215,6 +3251,12 @@
           "y": 0.12321016166281755,
           "uniqueID": "id-4294",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 7
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3423,26 +3465,40 @@
               "y": 0.7875288683602771,
               "uniqueID": "id-4383",
               "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 10
+                },
+                {
+                  "name": "i",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "NumberE >= i >0"
             },
             {
               "atomType": "Equation",
-              "x": 0.30852211434735705,
-              "y": 0.6073903002309469,
+              "x": 0.3236245954692557,
+              "y": 0.6258660508083141,
               "uniqueID": "id-4389",
               "name": "t * ( i -1) * move",
               "ioValues": [
                 {
+                  "name": "i",
+                  "ioValue": 10
+                },
+                {
                   "name": "move",
-                  "ioValue": 1
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
               "atomType": "Move",
-              "x": 0.5480043149946062,
-              "y": 0.6766743648960739,
+              "x": 0.5490830636461704,
+              "y": 0.6535796766743649,
               "uniqueID": "id-4396",
               "ioValues": [
                 {
@@ -3451,22 +3507,22 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0
+                  "ioValue": 90
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0
+                  "ioValue": 90
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 90
                 }
               ]
             },
             {
               "atomType": "Readme",
-              "x": 0.5846817691477886,
-              "y": 0.9030023094688221,
+              "x": 0.6213592233009708,
+              "y": 0.8799076212471131,
               "uniqueID": "id-4408",
               "name": "README",
               "ioValues": [
@@ -3495,8 +3551,8 @@
             },
             {
               "atomType": "Rotate",
-              "x": 0.5382955771305286,
-              "y": 0.3787528868360277,
+              "x": 0.5614886731391586,
+              "y": 0.30484988452655887,
               "uniqueID": "id-4412",
               "ioValues": [
                 {
@@ -3505,84 +3561,104 @@
                 },
                 {
                   "name": "x-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 90
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 90
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 90
                 }
               ]
             },
             {
               "atomType": "Equation",
-              "x": 0.3106796116504854,
-              "y": 0.5011547344110855,
+              "x": 0.3274002157497303,
+              "y": 0.47344110854503463,
               "uniqueID": "id-4418",
               "name": "t * ( i -1) * move",
               "ioValues": [
                 {
+                  "name": "i",
+                  "ioValue": 10
+                },
+                {
                   "name": "move",
-                  "ioValue": 1
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
               "atomType": "Equation",
-              "x": 0.3042071197411003,
-              "y": 0.418013856812933,
+              "x": 0.32416396979503775,
+              "y": 0.3348729792147806,
               "uniqueID": "id-4423",
               "name": "t * ( i -1) * move",
               "ioValues": [
                 {
+                  "name": "i",
+                  "ioValue": 10
+                },
+                {
                   "name": "move",
-                  "ioValue": 1
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
               "atomType": "Equation",
-              "x": 0.31391585760517804,
-              "y": 0.32101616628175517,
+              "x": 0.32578209277238407,
+              "y": 0.16397228637413394,
               "uniqueID": "id-4428",
               "name": "t * ( i -1) * move",
               "ioValues": [
                 {
+                  "name": "i",
+                  "ioValue": 10
+                },
+                {
                   "name": "move",
-                  "ioValue": 1
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
               "atomType": "Equation",
-              "x": 0.31391585760517804,
-              "y": 0.6928406466512702,
+              "x": 0.32308522114347354,
+              "y": 0.7575057736720554,
               "uniqueID": "id-4433",
               "name": "t * ( i -1) * move",
               "ioValues": [
                 {
+                  "name": "i",
+                  "ioValue": 10
+                },
+                {
                   "name": "move",
-                  "ioValue": 1
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
               "atomType": "Equation",
-              "x": 0.3225458468176915,
-              "y": 0.7829099307159354,
+              "x": 0.32470334412081986,
+              "y": 0.9006928406466512,
               "uniqueID": "id-4438",
               "name": "t * ( i -1) * move",
               "ioValues": [
                 {
+                  "name": "i",
+                  "ioValue": 10
+                },
+                {
                   "name": "move",
-                  "ioValue": 1
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -3630,14 +3706,44 @@
               "ap2ID": "id-4383"
             },
             {
+              "ap2Name": "geometry",
+              "ap1ID": "id-4362",
+              "ap2ID": "id-4412"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-4365",
+              "ap2ID": "id-4389"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-4368",
+              "ap2ID": "id-4433"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-4371",
+              "ap2ID": "id-4438"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-4374",
+              "ap2ID": "id-4428"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-4377",
+              "ap2ID": "id-4423"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-4380",
+              "ap2ID": "id-4418"
+            },
+            {
               "ap2Name": "value",
               "ap1ID": "id-4383",
               "ap2ID": "id-4410"
-            },
-            {
-              "ap2Name": "t",
-              "ap1ID": "id-4383",
-              "ap2ID": "id-4389"
             },
             {
               "ap2Name": "t",
@@ -3665,13 +3771,53 @@
               "ap2ID": "id-4438"
             },
             {
+              "ap2Name": "t",
+              "ap1ID": "id-4383",
+              "ap2ID": "id-4389"
+            },
+            {
+              "ap2Name": "xDist",
+              "ap1ID": "id-4389",
+              "ap2ID": "id-4396"
+            },
+            {
               "ap2Name": "value",
               "ap1ID": "id-4396",
               "ap2ID": "id-4408"
             },
             {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-4396",
+              "ap2ID": "id-4352"
+            },
+            {
               "ap2Name": "geometry",
               "ap1ID": "id-4412",
+              "ap2ID": "id-4396"
+            },
+            {
+              "ap2Name": "z-axis degrees",
+              "ap1ID": "id-4418",
+              "ap2ID": "id-4412"
+            },
+            {
+              "ap2Name": "y-axis degrees",
+              "ap1ID": "id-4423",
+              "ap2ID": "id-4412"
+            },
+            {
+              "ap2Name": "x-axis degrees",
+              "ap1ID": "id-4428",
+              "ap2ID": "id-4412"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-4433",
+              "ap2ID": "id-4396"
+            },
+            {
+              "ap2Name": "zDist",
+              "ap1ID": "id-4438",
               "ap2ID": "id-4396"
             }
           ],
