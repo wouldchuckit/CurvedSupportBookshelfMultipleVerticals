@@ -6,7 +6,11 @@
 
 
 
- ### Curve
+ Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf
+
+**Value:** 4
+
+### Curve
 
 Curve made of two tangent circles for shelf supports. Functions until the length is about 3 times the height. 
 
@@ -22,7 +26,7 @@ Curved shelf support element consisting of two tangent circles. It works up unti
 
 This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
 
-**Value:** true
+**Value:** false
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
 
@@ -30,7 +34,7 @@ I did rotate first because it made sense to me to position your object relative 
 
 This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
 
-**Value:** true
+**Value:** false
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
 
@@ -68,9 +72,9 @@ It is possible to make more of these.
 
 Copy and paste these as needed. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. 
 
-Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf
+This is the shelf height for each shelf unit
 
-**Value:** 4
+**Value:** 516.7375
 
 
 

@@ -126,8 +126,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.09978425026968717,
-      "y": 0.325635103926097,
+      "x": 0.10302049622437973,
+      "y": 0.3972286374133949,
       "uniqueID": "id-332",
       "name": "README",
       "ioValues": [
@@ -141,8 +141,8 @@
     },
     {
       "atomType": "Readme",
-      "x": 0.09385113268608414,
-      "y": 0.930715935334873,
+      "x": 0.1429341963322546,
+      "y": 0.10392609699769054,
       "uniqueID": "id-334",
       "name": "README",
       "ioValues": [
@@ -170,8 +170,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.037756202804746494,
-      "y": 0.9353348729792148,
+      "x": 0.0302049622437972,
+      "y": 0.9422632794457275,
       "uniqueID": "id-1380",
       "name": "ShelfHeight - WT",
       "ioValues": [
@@ -226,8 +226,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.09439050701186623,
-      "y": 0.18706697459584296,
+      "x": 0.10140237324703344,
+      "y": 0.2586605080831409,
       "uniqueID": "id-64",
       "name": "Curve",
       "ioValues": [
@@ -2894,8 +2894,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.25782092772384035,
-      "y": 0.5542725173210161,
+      "x": 0.2766990291262136,
+      "y": 0.5080831408775981,
       "uniqueID": "id-4283",
       "name": "Stacker",
       "ioValues": [
@@ -2905,7 +2905,7 @@
         },
         {
           "name": "ElementsNumber",
-          "ioValue": 10
+          "ioValue": 4
         },
         {
           "name": "MoveX",
@@ -2917,7 +2917,7 @@
         },
         {
           "name": "MoveZ",
-          "ioValue": 10
+          "ioValue": 516.7375
         },
         {
           "name": "RotateX",
@@ -3179,11 +3179,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 10
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": 4
             },
             {
               "name": "MoveX",
@@ -3195,7 +3191,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 516.7375
             },
             {
               "name": "RotateX",
@@ -3296,7 +3292,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 10
+                  "ioValue": 4
                 },
                 {
                   "name": "i",
@@ -3486,7 +3482,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 516.7375
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -3664,11 +3660,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 10
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": 4
             },
             {
               "name": "MoveX",
@@ -3680,7 +3672,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 516.7375
             },
             {
               "name": "RotateX",
@@ -3781,7 +3773,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 10
+                  "ioValue": 4
                 },
                 {
                   "name": "i",
@@ -3828,7 +3820,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 10
+                  "ioValue": 516.7375
                 }
               ]
             },
@@ -3971,7 +3963,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 516.7375
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -4149,11 +4141,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 10
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": 4
             },
             {
               "name": "MoveX",
@@ -4165,7 +4153,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 516.7375
             },
             {
               "name": "RotateX",
@@ -4266,7 +4254,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 10
+                  "ioValue": 4
                 },
                 {
                   "name": "i",
@@ -4313,7 +4301,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 20
+                  "ioValue": 1033.475
                 }
               ]
             },
@@ -4456,7 +4444,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 516.7375
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -4634,11 +4622,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 10
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": 4
             },
             {
               "name": "MoveX",
@@ -4650,7 +4634,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 516.7375
             },
             {
               "name": "RotateX",
@@ -4751,7 +4735,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 10
+                  "ioValue": 4
                 },
                 {
                   "name": "i",
@@ -4790,15 +4774,15 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 40
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 40
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 40
+                  "ioValue": 0
                 }
               ]
             },
@@ -4844,15 +4828,15 @@
                 },
                 {
                   "name": "x-axis degrees",
-                  "ioValue": 40
+                  "ioValue": 0
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 40
+                  "ioValue": 0
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 40
+                  "ioValue": 0
                 }
               ]
             },
@@ -4941,7 +4925,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 516.7375
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5119,11 +5103,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 10
-            },
-            {
-              "name": "Shape",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": 4
             },
             {
               "name": "MoveX",
@@ -5135,7 +5115,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 516.7375
             },
             {
               "name": "RotateX",
@@ -5236,7 +5216,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 10
+                  "ioValue": 4
                 },
                 {
                   "name": "i",
@@ -5275,15 +5255,15 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 50
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 50
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 50
+                  "ioValue": 0
                 }
               ]
             },
@@ -5329,15 +5309,15 @@
                 },
                 {
                   "name": "x-axis degrees",
-                  "ioValue": 50
+                  "ioValue": 0
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 50
+                  "ioValue": 0
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 50
+                  "ioValue": 0
                 }
               ]
             },
@@ -5426,7 +5406,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 516.7375
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5880,6 +5860,21 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.15318230852211434,
+      "y": 0.9422632794457275,
+      "uniqueID": "id-5435",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "This is the shelf height for each shelf unit",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -5897,6 +5892,11 @@
       "ap2Name": "value",
       "ap1ID": "id-22",
       "ap2ID": "id-334"
+    },
+    {
+      "ap2Name": "ElementsNumber",
+      "ap1ID": "id-22",
+      "ap2ID": "id-4283"
     },
     {
       "ap2Name": "TotalDepth",
@@ -5934,6 +5934,16 @@
       "ap2ID": "id-1380"
     },
     {
+      "ap2Name": "value",
+      "ap1ID": "id-43",
+      "ap2ID": "id-5435"
+    },
+    {
+      "ap2Name": "MoveZ",
+      "ap1ID": "id-43",
+      "ap2ID": "id-4283"
+    },
+    {
       "ap2Name": "ScrewDiameter",
       "ap1ID": "id-586",
       "ap2ID": "id-478"
@@ -5962,6 +5972,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-478",
       "ap2ID": "id-13"
+    },
+    {
+      "ap2Name": "Shape",
+      "ap1ID": "id-478",
+      "ap2ID": "id-4283"
     }
   ],
   "unitsKey": "MM",
