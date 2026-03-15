@@ -3167,12 +3167,6 @@
           "y": 0.765242494226328,
           "uniqueID": "id-4288",
           "name": "i + 1",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 1
-            }
-          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3181,12 +3175,6 @@
           "y": 0.6613163972286373,
           "uniqueID": "id-4289",
           "name": "i + 1",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 2
-            }
-          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3195,12 +3183,6 @@
           "y": 0.5643187066974595,
           "uniqueID": "id-4290",
           "name": "i + 1",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 3
-            }
-          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3209,12 +3191,6 @@
           "y": 0.46270207852193995,
           "uniqueID": "id-4291",
           "name": "i + 1",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 4
-            }
-          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3223,12 +3199,6 @@
           "y": 0.34953810623556586,
           "uniqueID": "id-4292",
           "name": "i + 1",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 5
-            }
-          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3237,12 +3207,6 @@
           "y": 0.23868360277136258,
           "uniqueID": "id-4293",
           "name": "i + 1",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 6
-            }
-          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3251,12 +3215,6 @@
           "y": 0.12321016166281755,
           "uniqueID": "id-4294",
           "name": "i + 1",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 7
-            }
-          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3291,7 +3249,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.3903002309468822,
+          "y": 0.374,
           "uniqueID": "id-4329",
           "name": "MoveZ"
         },
@@ -3312,7 +3270,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.5612009237875288,
+          "y": 0.5720000000000001,
           "uniqueID": "id-4344",
           "name": "RotateZ"
         },
@@ -3322,6 +3280,21 @@
           "y": 0.45958429561200925,
           "uniqueID": "id-4347",
           "ioValues": []
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.4466019417475728,
+          "y": 0.9445727482678984,
+          "uniqueID": "id-4354",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "Copy and paste these as needed. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. ",
+          "global": true
         },
         {
           "atomType": "Molecule",
@@ -3450,16 +3423,6 @@
               "y": 0.7875288683602771,
               "uniqueID": "id-4383",
               "name": "NumberE >= i >0",
-              "ioValues": [
-                {
-                  "name": "NumberE",
-                  "ioValue": 10
-                },
-                {
-                  "name": "i",
-                  "ioValue": 10
-                }
-              ],
               "currentEquation": "NumberE >= i >0"
             },
             {
@@ -3469,10 +3432,6 @@
               "uniqueID": "id-4389",
               "name": "t * ( i -1) * move",
               "ioValues": [
-                {
-                  "name": "i",
-                  "ioValue": 10
-                },
                 {
                   "name": "move",
                   "ioValue": 1
@@ -3566,10 +3525,6 @@
               "name": "t * ( i -1) * move",
               "ioValues": [
                 {
-                  "name": "i",
-                  "ioValue": 10
-                },
-                {
                   "name": "move",
                   "ioValue": 1
                 }
@@ -3583,10 +3538,6 @@
               "uniqueID": "id-4423",
               "name": "t * ( i -1) * move",
               "ioValues": [
-                {
-                  "name": "i",
-                  "ioValue": 10
-                },
                 {
                   "name": "move",
                   "ioValue": 1
@@ -3602,10 +3553,6 @@
               "name": "t * ( i -1) * move",
               "ioValues": [
                 {
-                  "name": "i",
-                  "ioValue": 10
-                },
-                {
                   "name": "move",
                   "ioValue": 1
                 }
@@ -3620,10 +3567,6 @@
               "name": "t * ( i -1) * move",
               "ioValues": [
                 {
-                  "name": "i",
-                  "ioValue": 10
-                },
-                {
                   "name": "move",
                   "ioValue": 1
                 }
@@ -3637,10 +3580,6 @@
               "uniqueID": "id-4438",
               "name": "t * ( i -1) * move",
               "ioValues": [
-                {
-                  "name": "i",
-                  "ioValue": 10
-                },
                 {
                   "name": "move",
                   "ioValue": 1
@@ -3737,21 +3676,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Readme",
-          "x": 0.4466019417475728,
-          "y": 0.9445727482678984,
-          "uniqueID": "id-4354",
-          "name": "README",
-          "ioValues": [
-            {
-              "name": "value",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ],
-          "readMeText": "Copy and paste these as needed. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. ",
-          "global": true
         }
       ],
       "allConnectors": [
