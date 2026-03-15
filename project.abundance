@@ -4,50 +4,21 @@
   "y": 0,
   "uniqueID": "id-12",
   "name": "CurvedSupportBookshelfMultipleVerticals",
-  "ioValues": [
+  "topLevel": true,
+  "allAtoms": [
     {
-      "name": "CurveSupportWidth",
-      "ioValue": 300
-    },
-    {
-      "name": "ShelfNumber",
-      "ioValue": 4
-    },
-    {
-      "name": "TotalHeight",
-      "ioValue": 2286
-    },
-    {
-      "name": "TotalDepth",
-      "ioValue": 600
-    },
-    {
-      "name": "TotalWidth",
-      "ioValue": 1000
-    },
-    {
-      "name": "BaseHeight",
-      "ioValue": 100
-    },
-    {
-      "name": "WoodThick",
-      "ioValue": 19.05
-    },
-    {
-      "name": "TopHeight",
-      "ioValue": 100
-    },
-    {
-      "name": "ScrewShaft",
-      "ioValue": 2
-    },
-    {
-      "name": "ScrewHead",
-      "ioValue": 5
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-13",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
-  "topLevel": true,
-  "allAtoms": [],
   "allConnectors": [],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
