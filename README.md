@@ -56,7 +56,7 @@ I did rotate first because it made sense to me to position your object relative 
 
 Be sure to manually check that move x, y, z and rotate are all 0 for things you don't want. They may reset to 10
 
-**Value:** 10
+**Value:** 0
 
 ### StackUnit
 
