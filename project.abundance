@@ -3089,8 +3089,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.27130528586839264,
-      "y": 0.4965357967667437,
+      "x": 0.2583603020496224,
+      "y": 0.5057736720554272,
       "uniqueID": "id-4283",
       "name": "Stacker",
       "ioValues": [
@@ -7009,15 +7009,11 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2686084142394822,
-      "y": 0.15704387990762125,
+      "x": 0.273462783171521,
+      "y": 0.15935334872979215,
       "uniqueID": "id-7003",
       "name": "TopSection",
       "ioValues": [
-        {
-          "name": "Curve",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
         {
           "name": "ShelfHeight",
           "ioValue": 100
@@ -7068,14 +7064,6 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-7005",
-          "name": "Curve",
-          "type": "geometry"
         },
         {
           "atomType": "Input",
@@ -7153,69 +7141,6 @@
           ]
         },
         {
-          "atomType": "Fusion",
-          "x": 0.24487594390507011,
-          "y": 0.12933025404157045,
-          "uniqueID": "id-7013",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": {
-                "geometry": "move-rectangle-300-100-150-50-0",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": {
-                "geometry": "move-fuse-cut-fuse-cut-move-rectangle-300-502.45--150-251.225-0-rotate-move-rectangle-300-2512.25--150-502.45-0-0-0-30.840341387191977-move-rectangle-10-521.5-4.999-241.7-0-move-circle-285.38000208333335--285.38000208333335-0-0-fuse-intersect-move-circle-285.38000208333335--14.619997916666648-502.45-0-move-move-rectangle-300-570.7600041666667-0--285.38000208333335-0--150-502.45-0-move-circle-0.5--150-251.225-0-0-19.05-0",
-                "tags": [],
-                "bom": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "dimension": "2D"
-              }
-            }
-          ],
-          "unionType": "Fusion"
-        },
-        {
           "atomType": "Extrude",
           "x": 0.29827400215749733,
           "y": 0.12702078521939952,
@@ -7233,8 +7158,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.36030204962243795,
-          "y": 0.11316397228637413,
+          "x": 0.3678532901833873,
+          "y": 0.12702078521939952,
           "uniqueID": "id-7015",
           "ioValues": [
             {
@@ -7432,8 +7357,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.8624595469255663,
-          "y": 0.3279445727482679,
+          "x": 0.8845738942826322,
+          "y": 0.41108545034642036,
           "uniqueID": "id-7026",
           "ioValues": [
             {
@@ -7456,8 +7381,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.0302049622437972,
-          "y": 0.8036951501154734,
+          "x": 0.09492988133764833,
+          "y": 0.9076212471131639,
           "uniqueID": "id-7027",
           "name": "TD-CW",
           "ioValues": [
@@ -7905,8 +7830,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.04638619201725998,
-          "y": 0.9330254041570438,
+          "x": 0.2313915857605178,
+          "y": 0.9214780600461893,
           "uniqueID": "id-7053",
           "name": "SI%2",
           "ioValues": [
@@ -8348,11 +8273,6 @@
       ],
       "allConnectors": [
         {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-7005",
-          "ap2ID": "id-7013"
-        },
-        {
           "ap2Name": "y length",
           "ap1ID": "id-7006",
           "ap2ID": "id-7010"
@@ -8498,13 +8418,8 @@
           "ap2ID": "id-7033"
         },
         {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-7012",
-          "ap2ID": "id-7013"
-        },
-        {
           "ap2Name": "geometry",
-          "ap1ID": "id-7013",
+          "ap1ID": "id-7012",
           "ap2ID": "id-7014"
         },
         {
@@ -8837,8 +8752,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.32578209277238407,
-      "y": 0.5011547344110855,
+      "x": 0.3263214670981661,
+      "y": 0.5057736720554272,
       "uniqueID": "id-8224",
       "ioValues": [
         {
@@ -8861,8 +8776,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.3851132686084142,
-      "y": 0.4942263279445727,
+      "x": 0.40722761596548007,
+      "y": 0.4988452655889145,
       "uniqueID": "id-8248",
       "ioValues": [
         {
@@ -9050,11 +8965,6 @@
       "ap2Name": "Shape",
       "ap1ID": "id-64",
       "ap2ID": "id-4283"
-    },
-    {
-      "ap2Name": "Curve",
-      "ap1ID": "id-64",
-      "ap2ID": "id-7003"
     },
     {
       "ap2Name": "geometry",
