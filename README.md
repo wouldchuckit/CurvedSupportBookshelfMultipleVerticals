@@ -146,7 +146,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10554.svg?v=n97mroo)
+![readme](/readmeid-10554.svg?v=3bktil)
 
 
 
@@ -158,7 +158,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10533.svg?v=eo7uqm)
+![readme](/readmeid-10533.svg?v=50gudk)
 
 
 
@@ -170,7 +170,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10512.svg?v=nduh6my)
+![readme](/readmeid-10512.svg?v=n2jymaq)
 
 
 
@@ -182,7 +182,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10491.svg?v=cm267f)
+![readme](/readmeid-10491.svg?v=wp4ait)
 
 
 
@@ -194,7 +194,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10470.svg?v=nezpt3p)
+![readme](/readmeid-10470.svg?v=z6iuw5)
 
 
 
@@ -202,7 +202,7 @@ Copy and paste these as needed as well as index blocks. Reconnecting the index i
 
 In this version I changed the equation to just be less than so that there wouldn't be an extra copy on the far end. It will make copies of the first side and move them into the middle.  I also changed the move to nudge the middle supports half of WoodThick back so they are centered.  
 
-![readme](/readmeid-10455.svg?v=nezpt3p)
+![readme](/readmeid-10455.svg?v=z6iuw5)
 
 
 
