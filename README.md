@@ -42,7 +42,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-5104.svg?v=n2du9jx)
+![readme](/readmeid-5104.svg?v=k7ktrf)
 
 
 
@@ -54,7 +54,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-5187.svg?v=nh4q3m)
+![readme](/readmeid-5187.svg?v=n9sfgb4)
 
 
 
@@ -66,7 +66,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-5021.svg?v=icg9t4)
+![readme](/readmeid-5021.svg?v=uepcob)
 
 
 
@@ -78,7 +78,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-4938.svg?v=nwj5b21)
+![readme](/readmeid-4938.svg?v=nrgshxr)
 
 
 
@@ -90,13 +90,13 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-4408.svg?v=nh4q3m)
+![readme](/readmeid-4408.svg?v=n9sfgb4)
 
 
 
 Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power.  
 
-![readme](/readmeid-4354.svg?v=nh4q3m)
+![readme](/readmeid-4354.svg?v=n9sfgb4)
 
 
 
