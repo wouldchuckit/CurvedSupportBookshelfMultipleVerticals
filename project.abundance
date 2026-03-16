@@ -755,8 +755,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.5204962243797195,
-      "y": 0.45265588914549654,
+      "x": 0.5312837108953614,
+      "y": 0.48729792147806006,
       "uniqueID": "id-10410",
       "ioValues": [
         {
@@ -1217,8 +1217,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.5188781014023732,
-      "y": 0.2586605080831409,
+      "x": 0.5453074433656958,
+      "y": 0.24942263279445726,
       "uniqueID": "id-10413",
       "ioValues": [
         {
@@ -11176,7 +11176,7 @@
         },
         {
           "name": "MoveZ",
-          "ioValue": 10
+          "ioValue": 0
         },
         {
           "name": "RotateX",
@@ -11293,6 +11293,12 @@
           "y": 0.23868360277136258,
           "uniqueID": "id-10444",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 6
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -11301,6 +11307,12 @@
           "y": 0.12321016166281755,
           "uniqueID": "id-10445",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 7
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -11435,7 +11447,19 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 0
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             },
             {
               "name": "WoodThick",
@@ -11623,6 +11647,10 @@
                 {
                   "name": "i",
                   "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11637,6 +11665,10 @@
                 {
                   "name": "i",
                   "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11651,14 +11683,18 @@
                 {
                   "name": "i",
                   "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
               "atomType": "Equation",
-              "x": 0.32308522114347354,
-              "y": 0.7575057736720554,
+              "x": 0.3344120819848975,
+              "y": 0.7344110854503464,
               "uniqueID": "id-10475",
               "name": "t * ( i -1) * move",
               "ioValues": [
@@ -11675,8 +11711,8 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.32470334412081986,
-              "y": 0.9006928406466512,
+              "x": 0.33279395900755127,
+              "y": 0.8937644341801385,
               "uniqueID": "id-10476",
               "name": "t * ( i -1) * move",
               "ioValues": [
@@ -11686,7 +11722,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11868,7 +11904,19 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 0
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             },
             {
               "name": "WoodThick",
@@ -11972,8 +12020,8 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.3376483279395901,
-              "y": 0.5912240184757506,
+              "x": 0.3290183387270766,
+              "y": 0.5958429561200923,
               "uniqueID": "id-10489",
               "name": "t * (( i -1) * move -.5 * WT)",
               "ioValues": [
@@ -12012,7 +12060,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ]
             },
@@ -12056,6 +12104,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12070,6 +12122,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12084,6 +12140,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12119,7 +12179,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12301,7 +12361,19 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 0
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             },
             {
               "name": "WoodThick",
@@ -12405,8 +12477,8 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.3354908306364617,
-              "y": 0.6143187066974596,
+              "x": 0.3344120819848975,
+              "y": 0.5935334872979214,
               "uniqueID": "id-10510",
               "name": "t * (( i -1) * move -.5 * WT)",
               "ioValues": [
@@ -12445,7 +12517,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 20
+                  "ioValue": 0
                 }
               ]
             },
@@ -12489,6 +12561,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12503,6 +12579,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12517,6 +12597,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12552,7 +12636,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12734,7 +12818,19 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 0
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             },
             {
               "name": "WoodThick",
@@ -12922,6 +13018,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12936,6 +13036,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12950,6 +13054,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12985,7 +13093,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -13167,7 +13275,19 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 10
+              "ioValue": 0
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             },
             {
               "name": "WoodThick",
@@ -13418,7 +13538,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -14123,17 +14243,22 @@
       "ap2ID": "id-10407"
     },
     {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-10407",
+      "ap2ID": "id-10426"
+    },
+    {
       "ap2Name": "Shape 4",
       "ap1ID": "id-10407",
       "ap2ID": "id-10426"
     },
     {
-      "ap2Name": "Shape 3",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-10410",
       "ap2ID": "id-10426"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "Shape 3",
       "ap1ID": "id-10413",
       "ap2ID": "id-10426"
     },
@@ -14141,11 +14266,6 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-10417",
       "ap2ID": "id-10420"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-10420",
-      "ap2ID": "id-10426"
     },
     {
       "ap2Name": "Shape",
@@ -14208,7 +14328,7 @@
       "ap2ID": "id-9329"
     },
     {
-      "ap2Name": "Shape 5",
+      "ap2Name": "Shape 2",
       "ap1ID": "id-10436",
       "ap2ID": "id-10426"
     }
