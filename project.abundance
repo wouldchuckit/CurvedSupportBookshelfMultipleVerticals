@@ -250,6 +250,48 @@
       ]
     },
     {
+      "atomType": "Move",
+      "x": 0.2599784250269687,
+      "y": 0.32101616628175517,
+      "uniqueID": "id-9329",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 2186
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2599784250269687,
+      "y": 0.9445727482678984,
+      "uniqueID": "id-9335",
+      "name": "TH - Top",
+      "ioValues": [
+        {
+          "name": "TH",
+          "ioValue": 2286
+        },
+        {
+          "name": "Top",
+          "ioValue": 100
+        }
+      ],
+      "currentEquation": "TH - Top"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.0970873786407767,
       "y": 0.17551963048498845,
@@ -4106,8 +4148,7 @@
         },
         {
           "name": "MoveX",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "MoveY",
@@ -4228,12 +4269,6 @@
           "y": 0.23868360277136258,
           "uniqueID": "id-4293",
           "name": "i + 1",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 6
-            }
-          ],
           "currentEquation": "i + 1"
         },
         {
@@ -4242,12 +4277,6 @@
           "y": 0.12321016166281755,
           "uniqueID": "id-4294",
           "name": "i + 1",
-          "ioValues": [
-            {
-              "name": "i",
-              "ioValue": 7
-            }
-          ],
           "currentEquation": "i + 1"
         },
         {
@@ -4376,18 +4405,6 @@
             {
               "name": "MoveZ",
               "ioValue": 521.5
-            },
-            {
-              "name": "RotateX",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateY",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateZ",
-              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -4567,10 +4584,6 @@
                 {
                   "name": "i",
                   "ioValue": 1
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -4585,10 +4598,6 @@
                 {
                   "name": "i",
                   "ioValue": 1
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -4603,10 +4612,6 @@
                 {
                   "name": "i",
                   "ioValue": 1
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -4813,18 +4818,6 @@
             {
               "name": "MoveZ",
               "ioValue": 521.5
-            },
-            {
-              "name": "RotateX",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateY",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateZ",
-              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -5004,10 +4997,6 @@
                 {
                   "name": "i",
                   "ioValue": 2
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5022,10 +5011,6 @@
                 {
                   "name": "i",
                   "ioValue": 2
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5040,10 +5025,6 @@
                 {
                   "name": "i",
                   "ioValue": 2
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5250,18 +5231,6 @@
             {
               "name": "MoveZ",
               "ioValue": 521.5
-            },
-            {
-              "name": "RotateX",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateY",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateZ",
-              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -5441,10 +5410,6 @@
                 {
                   "name": "i",
                   "ioValue": 3
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5459,10 +5424,6 @@
                 {
                   "name": "i",
                   "ioValue": 3
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5477,10 +5438,6 @@
                 {
                   "name": "i",
                   "ioValue": 3
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5687,18 +5644,6 @@
             {
               "name": "MoveZ",
               "ioValue": 521.5
-            },
-            {
-              "name": "RotateX",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateY",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateZ",
-              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -5878,10 +5823,6 @@
                 {
                   "name": "i",
                   "ioValue": 4
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5896,10 +5837,6 @@
                 {
                   "name": "i",
                   "ioValue": 4
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5914,10 +5851,6 @@
                 {
                   "name": "i",
                   "ioValue": 4
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -6124,18 +6057,6 @@
             {
               "name": "MoveZ",
               "ioValue": 521.5
-            },
-            {
-              "name": "RotateX",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateY",
-              "ioValue": 0
-            },
-            {
-              "name": "RotateZ",
-              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -6315,10 +6236,6 @@
                 {
                   "name": "i",
                   "ioValue": 5
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -6333,10 +6250,6 @@
                 {
                   "name": "i",
                   "ioValue": 5
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -6351,10 +6264,6 @@
                 {
                   "name": "i",
                   "ioValue": 5
-                },
-                {
-                  "name": "move",
-                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -8577,48 +8486,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Move",
-      "x": 0.2599784250269687,
-      "y": 0.32101616628175517,
-      "uniqueID": "id-9329",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 2186
-        }
-      ]
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.2599784250269687,
-      "y": 0.9445727482678984,
-      "uniqueID": "id-9335",
-      "name": "TH - Top",
-      "ioValues": [
-        {
-          "name": "TH",
-          "ioValue": 2286
-        },
-        {
-          "name": "Top",
-          "ioValue": 100
-        }
-      ],
-      "currentEquation": "TH - Top"
     }
   ],
   "allConnectors": [
@@ -8798,6 +8665,16 @@
       "ap2ID": "id-13"
     },
     {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-9329",
+      "ap2ID": "id-8248"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-9335",
+      "ap2ID": "id-9329"
+    },
+    {
       "ap2Name": "value",
       "ap1ID": "id-64",
       "ap2ID": "id-332"
@@ -8830,16 +8707,6 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-7003",
-      "ap2ID": "id-9329"
-    },
-    {
-      "ap2Name": "Shape 4",
-      "ap1ID": "id-9329",
-      "ap2ID": "id-8248"
-    },
-    {
-      "ap2Name": "zDist",
-      "ap1ID": "id-9335",
       "ap2ID": "id-9329"
     }
   ],
