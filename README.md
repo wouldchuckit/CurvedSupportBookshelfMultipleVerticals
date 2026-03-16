@@ -10,25 +10,25 @@
 
 Curve made of two tangent circles for shelf supports. Functions until the length is about 3 times the height.  
 
-![readme](/readmeid-303.svg?v=n4f1bpx)
+![readme](/readmeid-303.svg?v=n6hqbtg)
 
 
 
 Tis is also a patch for the edge when it gets too thin to a single point.  
 
-![readme](/readmeid-330.svg?v=i68fws)
+![readme](/readmeid-330.svg?v=zcgx6g)
 
 
 
 This is single point patch to cover the inflection point where the two circles meet. The Circles worked independently but when they were both trying to act on the same point it crashed 
 
-![readme](/readmeid-301.svg?v=k1z3x6)
+![readme](/readmeid-301.svg?v=n5z6pn7)
 
 
 
 Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height 
 
-![readme](/readmeid-332.svg?v=nd8btqt)
+![readme](/readmeid-332.svg?v=ndpfb2z)
 
 
 
@@ -42,7 +42,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-18160.svg?v=nsdcofz)
+![readme](/readmeid-18160.svg?v=n4v3jgg)
 
 
 
@@ -54,7 +54,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-5187.svg?v=nazp5b3)
+![readme](/readmeid-5187.svg?v=snlsy5)
 
 
 
@@ -66,7 +66,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-18083.svg?v=fcnr0r)
+![readme](/readmeid-18083.svg?v=n4myeaj)
 
 
 
@@ -78,7 +78,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-5104.svg?v=klh458)
+![readme](/readmeid-5104.svg?v=azmiqb)
 
 
 
@@ -90,7 +90,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-18237.svg?v=nmghlkx)
+![readme](/readmeid-18237.svg?v=xu4urp)
 
 
 
@@ -102,7 +102,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-5021.svg?v=nn807ln)
+![readme](/readmeid-5021.svg?v=fmv16o)
 
 
 
@@ -114,7 +114,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-4938.svg?v=nvuzqo5)
+![readme](/readmeid-4938.svg?v=nkn7yxz)
 
 
 
@@ -126,13 +126,13 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-4408.svg?v=kmwkv4)
+![readme](/readmeid-4408.svg?v=s64w39)
 
 
 
 Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power.  
 
-![readme](/readmeid-4354.svg?v=kmwkv4)
+![readme](/readmeid-4354.svg?v=s64w39)
 
 
 
@@ -146,7 +146,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10554.svg?v=nanejix)
+![readme](/readmeid-10554.svg?v=gqvsvh)
 
 
 
@@ -158,7 +158,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10533.svg?v=e31lmg)
+![readme](/readmeid-10533.svg?v=nx2uo0)
 
 
 
@@ -170,7 +170,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10512.svg?v=lz5sgo)
+![readme](/readmeid-10512.svg?v=u4lozl)
 
 
 
@@ -182,7 +182,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10491.svg?v=nmmtf1)
+![readme](/readmeid-10491.svg?v=n8166zi)
 
 
 
@@ -194,7 +194,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10470.svg?v=brgnue)
+![readme](/readmeid-10470.svg?v=xc4u8w)
 
 
 
@@ -202,13 +202,13 @@ Copy and paste these as needed as well as index blocks. Reconnecting the index i
 
 In this version I changed the equation to just be less than so that there wouldn't be an extra copy on the far end. It will make copies of the first side and move them into the middle.  I also changed the move to nudge the middle supports half of WoodThick back so they are centered.  
 
-![readme](/readmeid-10455.svg?v=brgnue)
+![readme](/readmeid-10455.svg?v=xc4u8w)
 
 
 
 This is the ShelfHeight. for each shelf unit
 
-**Value:** 212.5
+**Value:** 87.5
 
 Shelf number is not a perfect parameter.  It calculates heights of shelves. you will will need to copy and paste Units and index equaitons inside the Molecule Stacker and connect the new Units to their own index numbers. 
 
