@@ -16246,8 +16246,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.7545846817691477,
-      "y": 0.20092378752886836,
+      "x": 0.8020496224379718,
+      "y": 0.19399538106235564,
       "uniqueID": "id-19864",
       "name": "Cut Layout",
       "ioValues": [
@@ -16280,6 +16280,47 @@
             "translate": {
               "x": 505.2,
               "y": 505.19999999999993
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.8381877022653721,
+      "y": 0.3625866050808314,
+      "uniqueID": "id-19871",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 210,
+            "translate": {
+              "x": 653.5406038123824,
+              "y": 668.3554814014294
             }
           }
         ]
@@ -16601,6 +16642,11 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-15181",
       "ap2ID": "id-16627"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-15181",
+      "ap2ID": "id-19871"
     },
     {
       "ap2Name": "Shape 3",
