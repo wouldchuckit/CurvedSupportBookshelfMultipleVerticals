@@ -47,7 +47,8 @@
     },
     {
       "name": "VertNumber",
-      "ioValue": 4
+      "ioValue": 2,
+      "currentEquation": "2"
     }
   ],
   "topLevel": true,
@@ -2909,7 +2910,7 @@
         },
         {
           "name": "VN",
-          "ioValue": 4
+          "ioValue": 2
         }
       ],
       "currentEquation": "TW/ (VN-1)"
@@ -11223,7 +11224,7 @@
         },
         {
           "name": "ElementsNumber",
-          "ioValue": 4
+          "ioValue": 2
         },
         {
           "name": "MoveX",
@@ -11231,7 +11232,7 @@
         },
         {
           "name": "MoveY",
-          "ioValue": 333.3333333333333
+          "ioValue": 1000
         },
         {
           "name": "MoveZ",
@@ -11494,7 +11495,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 4
+              "ioValue": 2
             },
             {
               "name": "MoveX",
@@ -11502,7 +11503,7 @@
             },
             {
               "name": "MoveY",
-              "ioValue": 333.3333333333333
+              "ioValue": 1000
             },
             {
               "name": "MoveZ",
@@ -11611,7 +11612,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 4
+                  "ioValue": 2
                 },
                 {
                   "name": "i",
@@ -11759,7 +11760,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 333.3333333333333
+                  "ioValue": 1000
                 },
                 {
                   "name": "WT",
@@ -11946,7 +11947,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 4
+              "ioValue": 2
             },
             {
               "name": "MoveX",
@@ -11954,7 +11955,7 @@
             },
             {
               "name": "MoveY",
-              "ioValue": 333.3333333333333
+              "ioValue": 1000
             },
             {
               "name": "MoveZ",
@@ -12063,7 +12064,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 4
+                  "ioValue": 2
                 },
                 {
                   "name": "i",
@@ -12106,7 +12107,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 332.8333333333333
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -12199,7 +12200,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 333.3333333333333
+                  "ioValue": 1000
                 },
                 {
                   "name": "WT",
@@ -12386,7 +12387,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 4
+              "ioValue": 2
             },
             {
               "name": "MoveX",
@@ -12394,7 +12395,7 @@
             },
             {
               "name": "MoveY",
-              "ioValue": 333.3333333333333
+              "ioValue": 1000
             },
             {
               "name": "MoveZ",
@@ -12503,7 +12504,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 4
+                  "ioValue": 2
                 },
                 {
                   "name": "i",
@@ -12546,7 +12547,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 666.1666666666666
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -12639,7 +12640,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 333.3333333333333
+                  "ioValue": 1000
                 },
                 {
                   "name": "WT",
@@ -12826,7 +12827,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 4
+              "ioValue": 2
             },
             {
               "name": "MoveX",
@@ -12834,7 +12835,7 @@
             },
             {
               "name": "MoveY",
-              "ioValue": 333.3333333333333
+              "ioValue": 1000
             },
             {
               "name": "MoveZ",
@@ -12943,7 +12944,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 4
+                  "ioValue": 2
                 },
                 {
                   "name": "i",
@@ -13091,7 +13092,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 333.3333333333333
+                  "ioValue": 1000
                 },
                 {
                   "name": "WT",
@@ -13278,7 +13279,7 @@
             },
             {
               "name": "NumberElements",
-              "ioValue": 4
+              "ioValue": 2
             },
             {
               "name": "MoveX",
@@ -13286,7 +13287,7 @@
             },
             {
               "name": "MoveY",
-              "ioValue": 333.3333333333333
+              "ioValue": 1000
             },
             {
               "name": "MoveZ",
@@ -13395,7 +13396,7 @@
               "ioValues": [
                 {
                   "name": "NumberE",
-                  "ioValue": 4
+                  "ioValue": 2
                 },
                 {
                   "name": "i",
@@ -13543,7 +13544,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 333.3333333333333
+                  "ioValue": 1000
                 },
                 {
                   "name": "WT",
