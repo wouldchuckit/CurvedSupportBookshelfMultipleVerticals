@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "CurveSupportWidth",
-      "ioValue": 300
+      "ioValue": 300,
+      "currentEquation": "300"
     },
     {
       "name": "ShelfNumber",
@@ -11130,8 +11131,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.656957928802589,
-      "y": 0.20785219399538107,
+      "x": 0.6499460625674217,
+      "y": 0.17551963048498845,
       "uniqueID": "id-10436",
       "name": "StackerSideways",
       "ioValues": [
@@ -11153,7 +11154,7 @@
         },
         {
           "name": "MoveZ",
-          "ioValue": 521.5
+          "ioValue": 10
         },
         {
           "name": "RotateX",
@@ -11401,7 +11402,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 521.5
+              "ioValue": 10
             }
           ],
           "topLevel": false,
@@ -11644,7 +11645,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 521.5
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11814,7 +11815,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 521.5
+              "ioValue": 10
             }
           ],
           "topLevel": false,
@@ -11950,7 +11951,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 521.5
+                  "ioValue": 10
                 }
               ]
             },
@@ -12057,7 +12058,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 521.5
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12227,7 +12228,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 521.5
+              "ioValue": 10
             }
           ],
           "topLevel": false,
@@ -12363,7 +12364,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 1043
+                  "ioValue": 20
                 }
               ]
             },
@@ -12470,7 +12471,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 521.5
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12640,7 +12641,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 521.5
+              "ioValue": 10
             }
           ],
           "topLevel": false,
@@ -12776,7 +12777,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 1564.5
+                  "ioValue": 30
                 }
               ]
             },
@@ -12883,7 +12884,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 521.5
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -13053,7 +13054,7 @@
             },
             {
               "name": "MoveZ",
-              "ioValue": 521.5
+              "ioValue": 10
             }
           ],
           "topLevel": false,
@@ -13296,7 +13297,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 521.5
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -13774,11 +13775,6 @@
       "ap2ID": "id-4283"
     },
     {
-      "ap2Name": "ElementsNumber",
-      "ap1ID": "id-22",
-      "ap2ID": "id-10436"
-    },
-    {
       "ap2Name": "TH",
       "ap1ID": "id-25",
       "ap2ID": "id-9335"
@@ -13879,11 +13875,6 @@
       "ap2ID": "id-4283"
     },
     {
-      "ap2Name": "MoveZ",
-      "ap1ID": "id-43",
-      "ap2ID": "id-10436"
-    },
-    {
       "ap2Name": "ScrewDiameter",
       "ap1ID": "id-586",
       "ap2ID": "id-478"
@@ -13974,11 +13965,6 @@
       "ap2ID": "id-4283"
     },
     {
-      "ap2Name": "Shape",
-      "ap1ID": "id-478",
-      "ap2ID": "id-10436"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-4283",
       "ap2ID": "id-8224"
@@ -14034,9 +14020,19 @@
       "ap2ID": "id-10426"
     },
     {
+      "ap2Name": "Shape",
+      "ap1ID": "id-10420",
+      "ap2ID": "id-10436"
+    },
+    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-10426",
       "ap2ID": "id-13"
+    },
+    {
+      "ap2Name": "ElementsNumber",
+      "ap1ID": "id-10429",
+      "ap2ID": "id-10436"
     }
   ],
   "unitsKey": "MM",
