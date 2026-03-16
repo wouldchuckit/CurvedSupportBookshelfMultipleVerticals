@@ -100,14 +100,6 @@ Copy and paste these as needed as well as index blocks. Reconnecting the index i
 
 
 
-This is the ShelfHeight. for each shelf unit
-
-**Value:** 521.5
-
-Shelf number is not a perfect parameter.  It calculates heights of shelves. you will will need to copy and paste Units and index equaitons inside the Molecule Stacker and connect the new Units to their own index numbers. 
-
-**Value:** 4
-
 ### StackerSideways
 
 ### StackUnitSide
@@ -142,7 +134,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10512.svg?v=nhroktq)
+![readme](/readmeid-10512.svg?v=nvrc2cw)
 
 
 
@@ -154,7 +146,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10491.svg?v=kr4e9c)
+![readme](/readmeid-10491.svg?v=s4tvrn)
 
 
 
@@ -177,6 +169,14 @@ In this version I changed the equation to just be less than so that there wouldn
 ![readme](/readmeid-10455.svg?v=lqukk3)
 
 
+
+This is the ShelfHeight. for each shelf unit
+
+**Value:** 521.5
+
+Shelf number is not a perfect parameter.  It calculates heights of shelves. you will will need to copy and paste Units and index equaitons inside the Molecule Stacker and connect the new Units to their own index numbers. 
+
+**Value:** 4
 
 
 
