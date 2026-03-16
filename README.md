@@ -40,7 +40,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** false
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-5187.svg?v=kp36at)
+
+
 
 ### StackUnit
 
@@ -48,7 +52,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-5104.svg?v=nx610dj)
+
+
 
 ### StackUnit
 
@@ -56,7 +64,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-5021.svg?v=i9o3d0)
+
+
 
 ### StackUnit
 
@@ -64,7 +76,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-4938.svg?v=n9dyxti)
+
+
 
 ### StackUnit
 
@@ -72,9 +88,17 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. 
+![readme](/readmeid-4408.svg?v=kp36at)
+
+
+
+Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power.  
+
+![readme](/readmeid-4354.svg?v=kp36at)
+
+
 
 Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf
 

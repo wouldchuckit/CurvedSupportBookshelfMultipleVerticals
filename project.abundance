@@ -203,8 +203,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.26537216828478966,
-      "y": 0.5080831408775981,
+      "x": 0.3052858683926645,
+      "y": 0.6027713625866051,
       "uniqueID": "id-8224",
       "ioValues": [
         {
@@ -4087,8 +4087,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.21790722761596548,
-      "y": 0.5057736720554272,
+      "x": 0.20711974110032363,
+      "y": 0.5935334872979214,
       "uniqueID": "id-4283",
       "name": "Stacker",
       "ioValues": [
@@ -4553,30 +4553,6 @@
               "global": true
             },
             {
-              "atomType": "Rotate",
-              "x": 0.5614886731391586,
-              "y": 0.30484988452655887,
-              "uniqueID": "id-4412",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "x-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "y-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "z-axis degrees",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
               "atomType": "Equation",
               "x": 0.3274002157497303,
               "y": 0.47344110854503463,
@@ -4711,7 +4687,7 @@
             {
               "ap2Name": "geometry",
               "ap1ID": "id-4362",
-              "ap2ID": "id-4412"
+              "ap2ID": "id-4396"
             },
             {
               "ap2Name": "move",
@@ -4792,26 +4768,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-4396",
               "ap2ID": "id-4352"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-4412",
-              "ap2ID": "id-4396"
-            },
-            {
-              "ap2Name": "z-axis degrees",
-              "ap1ID": "id-4418",
-              "ap2ID": "id-4412"
-            },
-            {
-              "ap2Name": "y-axis degrees",
-              "ap1ID": "id-4423",
-              "ap2ID": "id-4412"
-            },
-            {
-              "ap2Name": "x-axis degrees",
-              "ap1ID": "id-4428",
-              "ap2ID": "id-4412"
             },
             {
               "ap2Name": "yDist",
@@ -5034,30 +4990,6 @@
               "global": true
             },
             {
-              "atomType": "Rotate",
-              "x": 0.5614886731391586,
-              "y": 0.30484988452655887,
-              "uniqueID": "id-4940",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "x-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "y-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "z-axis degrees",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
               "atomType": "Equation",
               "x": 0.3274002157497303,
               "y": 0.47344110854503463,
@@ -5192,7 +5124,7 @@
             {
               "ap2Name": "geometry",
               "ap1ID": "id-4928",
-              "ap2ID": "id-4940"
+              "ap2ID": "id-4937"
             },
             {
               "ap2Name": "move",
@@ -5273,26 +5205,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-4937",
               "ap2ID": "id-4925"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-4940",
-              "ap2ID": "id-4937"
-            },
-            {
-              "ap2Name": "z-axis degrees",
-              "ap1ID": "id-4941",
-              "ap2ID": "id-4940"
-            },
-            {
-              "ap2Name": "y-axis degrees",
-              "ap1ID": "id-4942",
-              "ap2ID": "id-4940"
-            },
-            {
-              "ap2Name": "x-axis degrees",
-              "ap1ID": "id-4943",
-              "ap2ID": "id-4940"
             },
             {
               "ap2Name": "yDist",
@@ -5515,30 +5427,6 @@
               "global": true
             },
             {
-              "atomType": "Rotate",
-              "x": 0.5614886731391586,
-              "y": 0.30484988452655887,
-              "uniqueID": "id-5023",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "x-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "y-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "z-axis degrees",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
               "atomType": "Equation",
               "x": 0.3274002157497303,
               "y": 0.47344110854503463,
@@ -5673,7 +5561,7 @@
             {
               "ap2Name": "geometry",
               "ap1ID": "id-5011",
-              "ap2ID": "id-5023"
+              "ap2ID": "id-5020"
             },
             {
               "ap2Name": "move",
@@ -5754,26 +5642,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-5020",
               "ap2ID": "id-5008"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-5023",
-              "ap2ID": "id-5020"
-            },
-            {
-              "ap2Name": "z-axis degrees",
-              "ap1ID": "id-5024",
-              "ap2ID": "id-5023"
-            },
-            {
-              "ap2Name": "y-axis degrees",
-              "ap1ID": "id-5025",
-              "ap2ID": "id-5023"
-            },
-            {
-              "ap2Name": "x-axis degrees",
-              "ap1ID": "id-5026",
-              "ap2ID": "id-5023"
             },
             {
               "ap2Name": "yDist",
@@ -5996,30 +5864,6 @@
               "global": true
             },
             {
-              "atomType": "Rotate",
-              "x": 0.5614886731391586,
-              "y": 0.30484988452655887,
-              "uniqueID": "id-5106",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "x-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "y-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "z-axis degrees",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
               "atomType": "Equation",
               "x": 0.3274002157497303,
               "y": 0.47344110854503463,
@@ -6154,7 +5998,7 @@
             {
               "ap2Name": "geometry",
               "ap1ID": "id-5094",
-              "ap2ID": "id-5106"
+              "ap2ID": "id-5103"
             },
             {
               "ap2Name": "move",
@@ -6235,26 +6079,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-5103",
               "ap2ID": "id-5091"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-5106",
-              "ap2ID": "id-5103"
-            },
-            {
-              "ap2Name": "z-axis degrees",
-              "ap1ID": "id-5107",
-              "ap2ID": "id-5106"
-            },
-            {
-              "ap2Name": "y-axis degrees",
-              "ap1ID": "id-5108",
-              "ap2ID": "id-5106"
-            },
-            {
-              "ap2Name": "x-axis degrees",
-              "ap1ID": "id-5109",
-              "ap2ID": "id-5106"
             },
             {
               "ap2Name": "yDist",
@@ -6477,30 +6301,6 @@
               "global": true
             },
             {
-              "atomType": "Rotate",
-              "x": 0.5593311758360302,
-              "y": 0.3140877598152425,
-              "uniqueID": "id-5189",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "x-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "y-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "z-axis degrees",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
               "atomType": "Equation",
               "x": 0.3274002157497303,
               "y": 0.47344110854503463,
@@ -6635,7 +6435,7 @@
             {
               "ap2Name": "geometry",
               "ap1ID": "id-5177",
-              "ap2ID": "id-5189"
+              "ap2ID": "id-5186"
             },
             {
               "ap2Name": "move",
@@ -6716,26 +6516,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-5186",
               "ap2ID": "id-5174"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-5189",
-              "ap2ID": "id-5186"
-            },
-            {
-              "ap2Name": "z-axis degrees",
-              "ap1ID": "id-5190",
-              "ap2ID": "id-5189"
-            },
-            {
-              "ap2Name": "y-axis degrees",
-              "ap1ID": "id-5191",
-              "ap2ID": "id-5189"
-            },
-            {
-              "ap2Name": "x-axis degrees",
-              "ap1ID": "id-5192",
-              "ap2ID": "id-5189"
             },
             {
               "ap2Name": "yDist",
