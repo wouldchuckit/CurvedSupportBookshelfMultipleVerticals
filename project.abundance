@@ -13699,7 +13699,28 @@
           "x": 0.7783171521035599,
           "y": 0.5935334872979214,
           "uniqueID": "id-16630",
-          "ioValues": []
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 5",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -13988,14 +14009,43 @@
           "ap1ID": "id-10456",
           "ap2ID": "id-10455"
         },
-        null
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-10456",
+          "ap2ID": "id-16630"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-10477",
+          "ap2ID": "id-16630"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-10498",
+          "ap2ID": "id-16630"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-10519",
+          "ap2ID": "id-16630"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-10540",
+          "ap2ID": "id-16630"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-16630",
+          "ap2ID": "id-10437"
+        }
       ],
       "fileTypeVersion": 1
     },
     {
       "atomType": "Assembly",
-      "x": 0.7702265372168284,
-      "y": 0.3879907621247113,
+      "x": 0.761596548004315,
+      "y": 0.418013856812933,
       "uniqueID": "id-16627",
       "ioValues": []
     }
