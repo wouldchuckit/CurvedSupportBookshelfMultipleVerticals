@@ -60,13 +60,13 @@ I did rotate first because it made sense to me to position your object relative 
 
 Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. 
 
-This is the ShelfHeight. for each shelf unit
-
-**Value:** 521.5
-
 Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf
 
 **Value:** 4
+
+This is the ShelfHeight. for each shelf unit
+
+**Value:** 521.5
 
 
 
