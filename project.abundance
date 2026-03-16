@@ -3222,6 +3222,12 @@
           "y": 0.5643187066974595,
           "uniqueID": "id-4290",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 3
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3230,6 +3236,12 @@
           "y": 0.46270207852193995,
           "uniqueID": "id-4291",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 4
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3238,6 +3250,12 @@
           "y": 0.34953810623556586,
           "uniqueID": "id-4292",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 5
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3246,6 +3264,12 @@
           "y": 0.23868360277136258,
           "uniqueID": "id-4293",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 6
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3254,6 +3278,12 @@
           "y": 0.12321016166281755,
           "uniqueID": "id-4294",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 7
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -3315,8 +3345,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.8629989212513485,
-          "y": 0.45958429561200925,
+          "x": 0.7891046386192018,
+          "y": 0.46420323325635104,
           "uniqueID": "id-4347",
           "ioValues": [
             {
@@ -3325,6 +3355,18 @@
             },
             {
               "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 6",
               "ioValue": null
             }
           ]
@@ -3341,7 +3383,7 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
-          "readMeText": "Copy and paste these as needed. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. ",
+          "readMeText": "Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. ",
           "global": true
         },
         {
@@ -4314,6 +4356,10 @@
           "name": "StackUnit",
           "ioValues": [
             {
+              "name": "Index",
+              "ioValue": 3
+            },
+            {
               "name": "NumberElements",
               "ioValue": 4
             },
@@ -4425,6 +4471,16 @@
               "y": 0.7875288683602771,
               "uniqueID": "id-5018",
               "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 4
+                },
+                {
+                  "name": "i",
+                  "ioValue": 3
+                }
+              ],
               "currentEquation": "NumberE >= i >0"
             },
             {
@@ -4433,6 +4489,16 @@
               "y": 0.6258660508083141,
               "uniqueID": "id-5019",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4444,6 +4510,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 20
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 1043
                 }
               ]
             },
@@ -4486,6 +4564,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
                 }
               ]
             },
@@ -4495,6 +4585,16 @@
               "y": 0.47344110854503463,
               "uniqueID": "id-5024",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4503,6 +4603,16 @@
               "y": 0.3348729792147806,
               "uniqueID": "id-5025",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4511,6 +4621,16 @@
               "y": 0.16397228637413394,
               "uniqueID": "id-5026",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4519,6 +4639,16 @@
               "y": 0.7575057736720554,
               "uniqueID": "id-5027",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4527,6 +4657,16 @@
               "y": 0.9006928406466512,
               "uniqueID": "id-5028",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 521.5
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             }
           ],
@@ -4697,6 +4837,10 @@
           "name": "StackUnit",
           "ioValues": [
             {
+              "name": "Index",
+              "ioValue": 4
+            },
+            {
               "name": "NumberElements",
               "ioValue": 4
             },
@@ -4808,6 +4952,16 @@
               "y": 0.7875288683602771,
               "uniqueID": "id-5101",
               "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 4
+                },
+                {
+                  "name": "i",
+                  "ioValue": 4
+                }
+              ],
               "currentEquation": "NumberE >= i >0"
             },
             {
@@ -4816,6 +4970,16 @@
               "y": 0.6258660508083141,
               "uniqueID": "id-5102",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4827,6 +4991,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 30
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 1564.5
                 }
               ]
             },
@@ -4869,6 +5045,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
                 }
               ]
             },
@@ -4878,6 +5066,16 @@
               "y": 0.47344110854503463,
               "uniqueID": "id-5107",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4886,6 +5084,16 @@
               "y": 0.3348729792147806,
               "uniqueID": "id-5108",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4894,6 +5102,16 @@
               "y": 0.16397228637413394,
               "uniqueID": "id-5109",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4902,6 +5120,16 @@
               "y": 0.7575057736720554,
               "uniqueID": "id-5110",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -4910,6 +5138,16 @@
               "y": 0.9006928406466512,
               "uniqueID": "id-5111",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 521.5
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             }
           ],
@@ -5074,11 +5312,15 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.6181229773462783,
-          "y": 0.2678983833718245,
+          "x": 0.6370010787486515,
+          "y": 0.2586605080831409,
           "uniqueID": "id-5173",
           "name": "StackUnit",
           "ioValues": [
+            {
+              "name": "Index",
+              "ioValue": 5
+            },
             {
               "name": "NumberElements",
               "ioValue": 4
@@ -5191,6 +5433,16 @@
               "y": 0.7875288683602771,
               "uniqueID": "id-5184",
               "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 4
+                },
+                {
+                  "name": "i",
+                  "ioValue": 5
+                }
+              ],
               "currentEquation": "NumberE >= i >0"
             },
             {
@@ -5199,6 +5451,16 @@
               "y": 0.6258660508083141,
               "uniqueID": "id-5185",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 10
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -5210,6 +5472,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
                 }
               ]
             },
@@ -5252,6 +5526,18 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
                 }
               ]
             },
@@ -5261,6 +5547,16 @@
               "y": 0.47344110854503463,
               "uniqueID": "id-5190",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -5269,6 +5565,16 @@
               "y": 0.3348729792147806,
               "uniqueID": "id-5191",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -5277,6 +5583,16 @@
               "y": 0.16397228637413394,
               "uniqueID": "id-5192",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -5285,6 +5601,16 @@
               "y": 0.7575057736720554,
               "uniqueID": "id-5193",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             },
             {
@@ -5293,6 +5619,16 @@
               "y": 0.9006928406466512,
               "uniqueID": "id-5194",
               "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 521.5
+                }
+              ],
               "currentEquation": "t * ( i -1) * move"
             }
           ],
@@ -5728,8 +6064,28 @@
           "ap2ID": "id-4347"
         },
         {
+          "ap2Name": "value",
+          "ap1ID": "id-4350",
+          "ap2ID": "id-4354"
+        },
+        {
           "ap2Name": "Shape 2",
           "ap1ID": "id-4924",
+          "ap2ID": "id-4347"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-5007",
+          "ap2ID": "id-4347"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-5090",
+          "ap2ID": "id-4347"
+        },
+        {
+          "ap2Name": "Shape 6",
+          "ap1ID": "id-5173",
           "ap2ID": "id-4347"
         }
       ],
