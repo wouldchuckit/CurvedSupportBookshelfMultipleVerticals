@@ -16272,7 +16272,18 @@
           "ioValue": 12
         }
       ],
-      "placements": []
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 505.2,
+              "y": 505.19999999999993
+            }
+          }
+        ]
+      ]
     }
   ],
   "allConnectors": [
