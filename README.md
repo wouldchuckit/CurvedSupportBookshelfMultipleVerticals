@@ -100,6 +100,74 @@ Copy and paste these as needed as well as index blocks. Reconnecting the index i
 
 
 
+### StackerSideways
+
+### StackUnit
+
+This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
+
+**Value:** false
+
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10554.svg?v=kp36at)
+
+
+
+### StackUnit
+
+This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
+
+**Value:** true
+
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10533.svg?v=ms5nw1)
+
+
+
+### StackUnit
+
+This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
+
+**Value:** true
+
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10512.svg?v=a55sgr)
+
+
+
+### StackUnit
+
+This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
+
+**Value:** true
+
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10491.svg?v=k19e1j)
+
+
+
+### StackUnit
+
+This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
+
+**Value:** true
+
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10470.svg?v=kp36at)
+
+
+
+Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power.  
+
+![readme](/readmeid-10455.svg?v=kp36at)
+
+
+
 This is the ShelfHeight. for each shelf unit
 
 **Value:** 521.5

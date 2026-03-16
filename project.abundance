@@ -4137,8 +4137,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.24541531823085222,
-      "y": 0.5496535796766744,
+      "x": 0.24271844660194175,
+      "y": 0.5889145496535797,
       "uniqueID": "id-4283",
       "name": "Stacker",
       "ioValues": [
@@ -8950,8 +8950,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.5302049622437972,
-      "y": 0.418013856812933,
+      "x": 0.5204962243797195,
+      "y": 0.45265588914549654,
       "uniqueID": "id-10410",
       "ioValues": [
         {
@@ -9412,8 +9412,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.5194174757281553,
-      "y": 0.25635103926096997,
+      "x": 0.5188781014023732,
+      "y": 0.2586605080831409,
       "uniqueID": "id-10413",
       "ioValues": [
         {
@@ -11106,6 +11106,18 @@
         {
           "name": "Shape 1",
           "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
         }
       ]
     },
@@ -11115,6 +11127,2619 @@
       "y": 0.7700000000000002,
       "uniqueID": "id-10429",
       "name": "VertNumber"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.656957928802589,
+      "y": 0.20785219399538107,
+      "uniqueID": "id-10436",
+      "name": "StackerSideways",
+      "ioValues": [
+        {
+          "name": "Shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "ElementsNumber",
+          "ioValue": 4
+        },
+        {
+          "name": "MoveX",
+          "ioValue": 0
+        },
+        {
+          "name": "MoveY",
+          "ioValue": 0
+        },
+        {
+          "name": "MoveZ",
+          "ioValue": 521.5
+        },
+        {
+          "name": "RotateX",
+          "ioValue": 0
+        },
+        {
+          "name": "RotateY",
+          "ioValue": 0
+        },
+        {
+          "name": "RotateZ",
+          "ioValue": 0
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-10437",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.259277238403452,
+          "y": 0.8668591224018476,
+          "uniqueID": "id-10438",
+          "name": "ShelfIndexONE",
+          "value": 1
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2625134843581446,
+          "y": 0.765242494226328,
+          "uniqueID": "id-10439",
+          "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "i + 1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.27114347357065804,
+          "y": 0.6613163972286373,
+          "uniqueID": "id-10440",
+          "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 2
+            }
+          ],
+          "currentEquation": "i + 1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2733009708737864,
+          "y": 0.5643187066974595,
+          "uniqueID": "id-10441",
+          "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 3
+            }
+          ],
+          "currentEquation": "i + 1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2722222222222222,
+          "y": 0.46270207852193995,
+          "uniqueID": "id-10442",
+          "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 4
+            }
+          ],
+          "currentEquation": "i + 1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2689859762675297,
+          "y": 0.34953810623556586,
+          "uniqueID": "id-10443",
+          "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 5
+            }
+          ],
+          "currentEquation": "i + 1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.27060409924487594,
+          "y": 0.23868360277136258,
+          "uniqueID": "id-10444",
+          "name": "i + 1",
+          "currentEquation": "i + 1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.27869471413160735,
+          "y": 0.12321016166281755,
+          "uniqueID": "id-10445",
+          "name": "i + 1",
+          "currentEquation": "i + 1"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-10446",
+          "name": "Shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-10447",
+          "name": "ElementsNumber"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-10448",
+          "name": "MoveX"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-10449",
+          "name": "MoveY"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-10450",
+          "name": "MoveZ"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.44,
+          "uniqueID": "id-10451",
+          "name": "RotateX"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.506,
+          "uniqueID": "id-10452",
+          "name": "RotateY"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.5720000000000001,
+          "uniqueID": "id-10453",
+          "name": "RotateZ"
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7891046386192018,
+          "y": 0.46420323325635104,
+          "uniqueID": "id-10454",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 6",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Readme",
+          "x": 0.4466019417475728,
+          "y": 0.9445727482678984,
+          "uniqueID": "id-10455",
+          "name": "README",
+          "ioValues": [
+            {
+              "name": "value",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "readMeText": "Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. ",
+          "global": true
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.3559870550161812,
+          "y": 0.9122401847575057,
+          "uniqueID": "id-10456",
+          "name": "StackUnit",
+          "ioValues": [
+            {
+              "name": "Index",
+              "ioValue": 1
+            },
+            {
+              "name": "NumberElements",
+              "ioValue": 4
+            },
+            {
+              "name": "MoveX",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveY",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveZ",
+              "ioValue": 521.5
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-10457",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.10999999999999999,
+              "uniqueID": "id-10458",
+              "name": "Index"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.176,
+              "uniqueID": "id-10459",
+              "name": "NumberElements"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.242,
+              "uniqueID": "id-10460",
+              "name": "Shape"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.308,
+              "uniqueID": "id-10461",
+              "name": "MoveX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.374,
+              "uniqueID": "id-10462",
+              "name": "MoveY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.44,
+              "uniqueID": "id-10463",
+              "name": "MoveZ"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.506,
+              "uniqueID": "id-10464",
+              "name": "RotateX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.5720000000000001,
+              "uniqueID": "id-10465",
+              "name": "RotateY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.6380000000000001,
+              "uniqueID": "id-10466",
+              "name": "RotateZ"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.12837108953613807,
+              "y": 0.7875288683602771,
+              "uniqueID": "id-10467",
+              "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 4
+                },
+                {
+                  "name": "i",
+                  "ioValue": 1
+                }
+              ],
+              "currentEquation": "NumberE >= i >0"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3236245954692557,
+              "y": 0.6258660508083141,
+              "uniqueID": "id-10468",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5490830636461704,
+              "y": 0.6535796766743649,
+              "uniqueID": "id-10469",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.6213592233009708,
+              "y": 0.8799076212471131,
+              "uniqueID": "id-10470",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently",
+              "global": true
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.14670981661272922,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10471",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. ",
+              "global": true
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3274002157497303,
+              "y": 0.47344110854503463,
+              "uniqueID": "id-10472",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 1
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32416396979503775,
+              "y": 0.3348729792147806,
+              "uniqueID": "id-10473",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 1
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32578209277238407,
+              "y": 0.16397228637413394,
+              "uniqueID": "id-10474",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 1
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32308522114347354,
+              "y": 0.7575057736720554,
+              "uniqueID": "id-10475",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32470334412081986,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10476",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 521.5
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10458",
+              "ap2ID": "id-10468"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10458",
+              "ap2ID": "id-10467"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10458",
+              "ap2ID": "id-10472"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10458",
+              "ap2ID": "id-10473"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10458",
+              "ap2ID": "id-10474"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10458",
+              "ap2ID": "id-10475"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10458",
+              "ap2ID": "id-10476"
+            },
+            {
+              "ap2Name": "NumberE",
+              "ap1ID": "id-10459",
+              "ap2ID": "id-10467"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-10460",
+              "ap2ID": "id-10469"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10461",
+              "ap2ID": "id-10468"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10462",
+              "ap2ID": "id-10475"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10463",
+              "ap2ID": "id-10476"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10464",
+              "ap2ID": "id-10474"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10465",
+              "ap2ID": "id-10473"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10466",
+              "ap2ID": "id-10472"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10467",
+              "ap2ID": "id-10471"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10467",
+              "ap2ID": "id-10472"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10467",
+              "ap2ID": "id-10473"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10467",
+              "ap2ID": "id-10474"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10467",
+              "ap2ID": "id-10475"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10467",
+              "ap2ID": "id-10476"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10467",
+              "ap2ID": "id-10468"
+            },
+            {
+              "ap2Name": "xDist",
+              "ap1ID": "id-10468",
+              "ap2ID": "id-10469"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10469",
+              "ap2ID": "id-10470"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-10469",
+              "ap2ID": "id-10457"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-10475",
+              "ap2ID": "id-10469"
+            },
+            {
+              "ap2Name": "zDist",
+              "ap1ID": "id-10476",
+              "ap2ID": "id-10469"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.43257820927723845,
+          "y": 0.789838337182448,
+          "uniqueID": "id-10477",
+          "name": "StackUnit",
+          "ioValues": [
+            {
+              "name": "Index",
+              "ioValue": 2
+            },
+            {
+              "name": "NumberElements",
+              "ioValue": 4
+            },
+            {
+              "name": "MoveX",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveY",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveZ",
+              "ioValue": 521.5
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-10478",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.10999999999999999,
+              "uniqueID": "id-10479",
+              "name": "Index"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.176,
+              "uniqueID": "id-10480",
+              "name": "NumberElements"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.242,
+              "uniqueID": "id-10481",
+              "name": "Shape"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.308,
+              "uniqueID": "id-10482",
+              "name": "MoveX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.374,
+              "uniqueID": "id-10483",
+              "name": "MoveY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.44,
+              "uniqueID": "id-10484",
+              "name": "MoveZ"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.506,
+              "uniqueID": "id-10485",
+              "name": "RotateX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.5720000000000001,
+              "uniqueID": "id-10486",
+              "name": "RotateY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.6380000000000001,
+              "uniqueID": "id-10487",
+              "name": "RotateZ"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.12837108953613807,
+              "y": 0.7875288683602771,
+              "uniqueID": "id-10488",
+              "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 4
+                },
+                {
+                  "name": "i",
+                  "ioValue": 2
+                }
+              ],
+              "currentEquation": "NumberE >= i >0"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3236245954692557,
+              "y": 0.6258660508083141,
+              "uniqueID": "id-10489",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5490830636461704,
+              "y": 0.6535796766743649,
+              "uniqueID": "id-10490",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 521.5
+                }
+              ]
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.6213592233009708,
+              "y": 0.8799076212471131,
+              "uniqueID": "id-10491",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently",
+              "global": true
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.14670981661272922,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10492",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. ",
+              "global": true
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3274002157497303,
+              "y": 0.47344110854503463,
+              "uniqueID": "id-10493",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32416396979503775,
+              "y": 0.3348729792147806,
+              "uniqueID": "id-10494",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32578209277238407,
+              "y": 0.16397228637413394,
+              "uniqueID": "id-10495",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32308522114347354,
+              "y": 0.7575057736720554,
+              "uniqueID": "id-10496",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32470334412081986,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10497",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 521.5
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10479",
+              "ap2ID": "id-10489"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10479",
+              "ap2ID": "id-10488"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10479",
+              "ap2ID": "id-10493"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10479",
+              "ap2ID": "id-10494"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10479",
+              "ap2ID": "id-10495"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10479",
+              "ap2ID": "id-10496"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10479",
+              "ap2ID": "id-10497"
+            },
+            {
+              "ap2Name": "NumberE",
+              "ap1ID": "id-10480",
+              "ap2ID": "id-10488"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-10481",
+              "ap2ID": "id-10490"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10482",
+              "ap2ID": "id-10489"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10483",
+              "ap2ID": "id-10496"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10484",
+              "ap2ID": "id-10497"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10485",
+              "ap2ID": "id-10495"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10486",
+              "ap2ID": "id-10494"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10487",
+              "ap2ID": "id-10493"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10488",
+              "ap2ID": "id-10492"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10488",
+              "ap2ID": "id-10493"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10488",
+              "ap2ID": "id-10494"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10488",
+              "ap2ID": "id-10495"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10488",
+              "ap2ID": "id-10496"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10488",
+              "ap2ID": "id-10497"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10488",
+              "ap2ID": "id-10489"
+            },
+            {
+              "ap2Name": "xDist",
+              "ap1ID": "id-10489",
+              "ap2ID": "id-10490"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10490",
+              "ap2ID": "id-10491"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-10490",
+              "ap2ID": "id-10478"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-10496",
+              "ap2ID": "id-10490"
+            },
+            {
+              "ap2Name": "zDist",
+              "ap1ID": "id-10497",
+              "ap2ID": "id-10490"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.4924487594390507,
+          "y": 0.6697459584295612,
+          "uniqueID": "id-10498",
+          "name": "StackUnit",
+          "ioValues": [
+            {
+              "name": "Index",
+              "ioValue": 3
+            },
+            {
+              "name": "NumberElements",
+              "ioValue": 4
+            },
+            {
+              "name": "MoveX",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveY",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveZ",
+              "ioValue": 521.5
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-10499",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.10999999999999999,
+              "uniqueID": "id-10500",
+              "name": "Index"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.176,
+              "uniqueID": "id-10501",
+              "name": "NumberElements"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.242,
+              "uniqueID": "id-10502",
+              "name": "Shape"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.308,
+              "uniqueID": "id-10503",
+              "name": "MoveX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.374,
+              "uniqueID": "id-10504",
+              "name": "MoveY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.44,
+              "uniqueID": "id-10505",
+              "name": "MoveZ"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.506,
+              "uniqueID": "id-10506",
+              "name": "RotateX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.5720000000000001,
+              "uniqueID": "id-10507",
+              "name": "RotateY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.6380000000000001,
+              "uniqueID": "id-10508",
+              "name": "RotateZ"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.12837108953613807,
+              "y": 0.7875288683602771,
+              "uniqueID": "id-10509",
+              "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 4
+                },
+                {
+                  "name": "i",
+                  "ioValue": 3
+                }
+              ],
+              "currentEquation": "NumberE >= i >0"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3236245954692557,
+              "y": 0.6258660508083141,
+              "uniqueID": "id-10510",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5490830636461704,
+              "y": 0.6535796766743649,
+              "uniqueID": "id-10511",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 1043
+                }
+              ]
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.6213592233009708,
+              "y": 0.8799076212471131,
+              "uniqueID": "id-10512",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently",
+              "global": true
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.14670981661272922,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10513",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. ",
+              "global": true
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3274002157497303,
+              "y": 0.47344110854503463,
+              "uniqueID": "id-10514",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32416396979503775,
+              "y": 0.3348729792147806,
+              "uniqueID": "id-10515",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32578209277238407,
+              "y": 0.16397228637413394,
+              "uniqueID": "id-10516",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32308522114347354,
+              "y": 0.7575057736720554,
+              "uniqueID": "id-10517",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32470334412081986,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10518",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 521.5
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10500",
+              "ap2ID": "id-10510"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10500",
+              "ap2ID": "id-10509"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10500",
+              "ap2ID": "id-10514"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10500",
+              "ap2ID": "id-10515"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10500",
+              "ap2ID": "id-10516"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10500",
+              "ap2ID": "id-10517"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10500",
+              "ap2ID": "id-10518"
+            },
+            {
+              "ap2Name": "NumberE",
+              "ap1ID": "id-10501",
+              "ap2ID": "id-10509"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-10502",
+              "ap2ID": "id-10511"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10503",
+              "ap2ID": "id-10510"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10504",
+              "ap2ID": "id-10517"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10505",
+              "ap2ID": "id-10518"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10506",
+              "ap2ID": "id-10516"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10507",
+              "ap2ID": "id-10515"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10508",
+              "ap2ID": "id-10514"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10509",
+              "ap2ID": "id-10513"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10509",
+              "ap2ID": "id-10514"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10509",
+              "ap2ID": "id-10515"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10509",
+              "ap2ID": "id-10516"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10509",
+              "ap2ID": "id-10517"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10509",
+              "ap2ID": "id-10518"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10509",
+              "ap2ID": "id-10510"
+            },
+            {
+              "ap2Name": "xDist",
+              "ap1ID": "id-10510",
+              "ap2ID": "id-10511"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10511",
+              "ap2ID": "id-10512"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-10511",
+              "ap2ID": "id-10499"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-10517",
+              "ap2ID": "id-10511"
+            },
+            {
+              "ap2Name": "zDist",
+              "ap1ID": "id-10518",
+              "ap2ID": "id-10511"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.5550161812297735,
+          "y": 0.5450346420323325,
+          "uniqueID": "id-10519",
+          "name": "StackUnit",
+          "ioValues": [
+            {
+              "name": "Index",
+              "ioValue": 4
+            },
+            {
+              "name": "NumberElements",
+              "ioValue": 4
+            },
+            {
+              "name": "MoveX",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveY",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveZ",
+              "ioValue": 521.5
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-10520",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.10999999999999999,
+              "uniqueID": "id-10521",
+              "name": "Index"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.176,
+              "uniqueID": "id-10522",
+              "name": "NumberElements"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.242,
+              "uniqueID": "id-10523",
+              "name": "Shape"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.308,
+              "uniqueID": "id-10524",
+              "name": "MoveX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.374,
+              "uniqueID": "id-10525",
+              "name": "MoveY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.44,
+              "uniqueID": "id-10526",
+              "name": "MoveZ"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.506,
+              "uniqueID": "id-10527",
+              "name": "RotateX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.5720000000000001,
+              "uniqueID": "id-10528",
+              "name": "RotateY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.6380000000000001,
+              "uniqueID": "id-10529",
+              "name": "RotateZ"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.12837108953613807,
+              "y": 0.7875288683602771,
+              "uniqueID": "id-10530",
+              "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 4
+                },
+                {
+                  "name": "i",
+                  "ioValue": 4
+                }
+              ],
+              "currentEquation": "NumberE >= i >0"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3236245954692557,
+              "y": 0.6258660508083141,
+              "uniqueID": "id-10531",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5490830636461704,
+              "y": 0.6535796766743649,
+              "uniqueID": "id-10532",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 1564.5
+                }
+              ]
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.6213592233009708,
+              "y": 0.8799076212471131,
+              "uniqueID": "id-10533",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently",
+              "global": true
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.14670981661272922,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10534",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. ",
+              "global": true
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3274002157497303,
+              "y": 0.47344110854503463,
+              "uniqueID": "id-10535",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32416396979503775,
+              "y": 0.3348729792147806,
+              "uniqueID": "id-10536",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32578209277238407,
+              "y": 0.16397228637413394,
+              "uniqueID": "id-10537",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32308522114347354,
+              "y": 0.7575057736720554,
+              "uniqueID": "id-10538",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32470334412081986,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10539",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 521.5
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10521",
+              "ap2ID": "id-10531"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10521",
+              "ap2ID": "id-10530"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10521",
+              "ap2ID": "id-10535"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10521",
+              "ap2ID": "id-10536"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10521",
+              "ap2ID": "id-10537"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10521",
+              "ap2ID": "id-10538"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10521",
+              "ap2ID": "id-10539"
+            },
+            {
+              "ap2Name": "NumberE",
+              "ap1ID": "id-10522",
+              "ap2ID": "id-10530"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-10523",
+              "ap2ID": "id-10532"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10524",
+              "ap2ID": "id-10531"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10525",
+              "ap2ID": "id-10538"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10526",
+              "ap2ID": "id-10539"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10527",
+              "ap2ID": "id-10537"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10528",
+              "ap2ID": "id-10536"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10529",
+              "ap2ID": "id-10535"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10530",
+              "ap2ID": "id-10534"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10530",
+              "ap2ID": "id-10535"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10530",
+              "ap2ID": "id-10536"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10530",
+              "ap2ID": "id-10537"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10530",
+              "ap2ID": "id-10538"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10530",
+              "ap2ID": "id-10539"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10530",
+              "ap2ID": "id-10531"
+            },
+            {
+              "ap2Name": "xDist",
+              "ap1ID": "id-10531",
+              "ap2ID": "id-10532"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10532",
+              "ap2ID": "id-10533"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-10532",
+              "ap2ID": "id-10520"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-10538",
+              "ap2ID": "id-10532"
+            },
+            {
+              "ap2Name": "zDist",
+              "ap1ID": "id-10539",
+              "ap2ID": "id-10532"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.6213592233009708,
+          "y": 0.4341801385681293,
+          "uniqueID": "id-10540",
+          "name": "StackUnit",
+          "ioValues": [
+            {
+              "name": "Index",
+              "ioValue": 5
+            },
+            {
+              "name": "NumberElements",
+              "ioValue": 4
+            },
+            {
+              "name": "MoveX",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveY",
+              "ioValue": 0
+            },
+            {
+              "name": "MoveZ",
+              "ioValue": 521.5
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-10541",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.10999999999999999,
+              "uniqueID": "id-10542",
+              "name": "Index"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.176,
+              "uniqueID": "id-10543",
+              "name": "NumberElements"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.242,
+              "uniqueID": "id-10544",
+              "name": "Shape"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.308,
+              "uniqueID": "id-10545",
+              "name": "MoveX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.374,
+              "uniqueID": "id-10546",
+              "name": "MoveY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.44,
+              "uniqueID": "id-10547",
+              "name": "MoveZ"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.506,
+              "uniqueID": "id-10548",
+              "name": "RotateX"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.5720000000000001,
+              "uniqueID": "id-10549",
+              "name": "RotateY"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.6380000000000001,
+              "uniqueID": "id-10550",
+              "name": "RotateZ"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.09870550161812297,
+              "y": 0.7413394919168591,
+              "uniqueID": "id-10551",
+              "name": "NumberE >= i >0",
+              "ioValues": [
+                {
+                  "name": "NumberE",
+                  "ioValue": 4
+                },
+                {
+                  "name": "i",
+                  "ioValue": 5
+                }
+              ],
+              "currentEquation": "NumberE >= i >0"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3236245954692557,
+              "y": 0.6258660508083141,
+              "uniqueID": "id-10552",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5426105717367853,
+              "y": 0.6420323325635103,
+              "uniqueID": "id-10553",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.6213592233009708,
+              "y": 0.8799076212471131,
+              "uniqueID": "id-10554",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently",
+              "global": true
+            },
+            {
+              "atomType": "Readme",
+              "x": 0.14670981661272922,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10555",
+              "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "readMeText": "This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. ",
+              "global": true
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3274002157497303,
+              "y": 0.47344110854503463,
+              "uniqueID": "id-10556",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32416396979503775,
+              "y": 0.3348729792147806,
+              "uniqueID": "id-10557",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32578209277238407,
+              "y": 0.16397228637413394,
+              "uniqueID": "id-10558",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.3220064724919094,
+              "y": 0.7528868360277136,
+              "uniqueID": "id-10559",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.32470334412081986,
+              "y": 0.9006928406466512,
+              "uniqueID": "id-10560",
+              "name": "t * ( i -1) * move",
+              "ioValues": [
+                {
+                  "name": "i",
+                  "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 521.5
+                }
+              ],
+              "currentEquation": "t * ( i -1) * move"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10542",
+              "ap2ID": "id-10552"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10542",
+              "ap2ID": "id-10551"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10542",
+              "ap2ID": "id-10556"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10542",
+              "ap2ID": "id-10557"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10542",
+              "ap2ID": "id-10558"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10542",
+              "ap2ID": "id-10559"
+            },
+            {
+              "ap2Name": "i",
+              "ap1ID": "id-10542",
+              "ap2ID": "id-10560"
+            },
+            {
+              "ap2Name": "NumberE",
+              "ap1ID": "id-10543",
+              "ap2ID": "id-10551"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-10544",
+              "ap2ID": "id-10553"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10545",
+              "ap2ID": "id-10552"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10546",
+              "ap2ID": "id-10559"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10547",
+              "ap2ID": "id-10560"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10548",
+              "ap2ID": "id-10558"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10549",
+              "ap2ID": "id-10557"
+            },
+            {
+              "ap2Name": "move",
+              "ap1ID": "id-10550",
+              "ap2ID": "id-10556"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10551",
+              "ap2ID": "id-10555"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10551",
+              "ap2ID": "id-10556"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10551",
+              "ap2ID": "id-10557"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10551",
+              "ap2ID": "id-10558"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10551",
+              "ap2ID": "id-10559"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10551",
+              "ap2ID": "id-10560"
+            },
+            {
+              "ap2Name": "t",
+              "ap1ID": "id-10551",
+              "ap2ID": "id-10552"
+            },
+            {
+              "ap2Name": "xDist",
+              "ap1ID": "id-10552",
+              "ap2ID": "id-10553"
+            },
+            {
+              "ap2Name": "value",
+              "ap1ID": "id-10553",
+              "ap2ID": "id-10554"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-10553",
+              "ap2ID": "id-10541"
+            },
+            {
+              "ap2Name": "yDist",
+              "ap1ID": "id-10559",
+              "ap2ID": "id-10553"
+            },
+            {
+              "ap2Name": "zDist",
+              "ap1ID": "id-10560",
+              "ap2ID": "id-10553"
+            }
+          ],
+          "fileTypeVersion": 1
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-10438",
+          "ap2ID": "id-10439"
+        },
+        {
+          "ap2Name": "Index",
+          "ap1ID": "id-10438",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-10439",
+          "ap2ID": "id-10440"
+        },
+        {
+          "ap2Name": "Index",
+          "ap1ID": "id-10439",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-10440",
+          "ap2ID": "id-10441"
+        },
+        {
+          "ap2Name": "Index",
+          "ap1ID": "id-10440",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-10441",
+          "ap2ID": "id-10442"
+        },
+        {
+          "ap2Name": "Index",
+          "ap1ID": "id-10441",
+          "ap2ID": "id-10519"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-10442",
+          "ap2ID": "id-10443"
+        },
+        {
+          "ap2Name": "Index",
+          "ap1ID": "id-10442",
+          "ap2ID": "id-10540"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-10443",
+          "ap2ID": "id-10444"
+        },
+        {
+          "ap2Name": "i",
+          "ap1ID": "id-10444",
+          "ap2ID": "id-10445"
+        },
+        {
+          "ap2Name": "Shape",
+          "ap1ID": "id-10446",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "Shape",
+          "ap1ID": "id-10446",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "Shape",
+          "ap1ID": "id-10446",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "Shape",
+          "ap1ID": "id-10446",
+          "ap2ID": "id-10519"
+        },
+        {
+          "ap2Name": "Shape",
+          "ap1ID": "id-10446",
+          "ap2ID": "id-10540"
+        },
+        {
+          "ap2Name": "NumberElements",
+          "ap1ID": "id-10447",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "NumberElements",
+          "ap1ID": "id-10447",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "NumberElements",
+          "ap1ID": "id-10447",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "NumberElements",
+          "ap1ID": "id-10447",
+          "ap2ID": "id-10519"
+        },
+        {
+          "ap2Name": "NumberElements",
+          "ap1ID": "id-10447",
+          "ap2ID": "id-10540"
+        },
+        {
+          "ap2Name": "MoveX",
+          "ap1ID": "id-10448",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "MoveX",
+          "ap1ID": "id-10448",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "MoveX",
+          "ap1ID": "id-10448",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "MoveX",
+          "ap1ID": "id-10448",
+          "ap2ID": "id-10519"
+        },
+        {
+          "ap2Name": "MoveX",
+          "ap1ID": "id-10448",
+          "ap2ID": "id-10540"
+        },
+        {
+          "ap2Name": "MoveY",
+          "ap1ID": "id-10449",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "MoveY",
+          "ap1ID": "id-10449",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "MoveY",
+          "ap1ID": "id-10449",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "MoveY",
+          "ap1ID": "id-10449",
+          "ap2ID": "id-10519"
+        },
+        {
+          "ap2Name": "MoveY",
+          "ap1ID": "id-10449",
+          "ap2ID": "id-10540"
+        },
+        {
+          "ap2Name": "MoveZ",
+          "ap1ID": "id-10450",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "MoveZ",
+          "ap1ID": "id-10450",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "MoveZ",
+          "ap1ID": "id-10450",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "MoveZ",
+          "ap1ID": "id-10450",
+          "ap2ID": "id-10519"
+        },
+        {
+          "ap2Name": "MoveZ",
+          "ap1ID": "id-10450",
+          "ap2ID": "id-10540"
+        },
+        {
+          "ap2Name": "RotateX",
+          "ap1ID": "id-10451",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "RotateX",
+          "ap1ID": "id-10451",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "RotateX",
+          "ap1ID": "id-10451",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "RotateX",
+          "ap1ID": "id-10451",
+          "ap2ID": "id-10519"
+        },
+        {
+          "ap2Name": "RotateX",
+          "ap1ID": "id-10451",
+          "ap2ID": "id-10540"
+        },
+        {
+          "ap2Name": "RotateY",
+          "ap1ID": "id-10452",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "RotateY",
+          "ap1ID": "id-10452",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "RotateY",
+          "ap1ID": "id-10452",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "RotateY",
+          "ap1ID": "id-10452",
+          "ap2ID": "id-10519"
+        },
+        {
+          "ap2Name": "RotateY",
+          "ap1ID": "id-10452",
+          "ap2ID": "id-10540"
+        },
+        {
+          "ap2Name": "RotateZ",
+          "ap1ID": "id-10453",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "RotateZ",
+          "ap1ID": "id-10453",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "RotateZ",
+          "ap1ID": "id-10453",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "RotateZ",
+          "ap1ID": "id-10453",
+          "ap2ID": "id-10519"
+        },
+        {
+          "ap2Name": "RotateZ",
+          "ap1ID": "id-10453",
+          "ap2ID": "id-10540"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-10454",
+          "ap2ID": "id-10437"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-10456",
+          "ap2ID": "id-10454"
+        },
+        {
+          "ap2Name": "value",
+          "ap1ID": "id-10456",
+          "ap2ID": "id-10455"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-10477",
+          "ap2ID": "id-10454"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-10498",
+          "ap2ID": "id-10454"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-10519",
+          "ap2ID": "id-10454"
+        },
+        {
+          "ap2Name": "Shape 6",
+          "ap1ID": "id-10540",
+          "ap2ID": "id-10454"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -11147,6 +13772,11 @@
       "ap2Name": "ElementsNumber",
       "ap1ID": "id-22",
       "ap2ID": "id-4283"
+    },
+    {
+      "ap2Name": "ElementsNumber",
+      "ap1ID": "id-22",
+      "ap2ID": "id-10436"
     },
     {
       "ap2Name": "TH",
@@ -11249,6 +13879,11 @@
       "ap2ID": "id-4283"
     },
     {
+      "ap2Name": "MoveZ",
+      "ap1ID": "id-43",
+      "ap2ID": "id-10436"
+    },
+    {
       "ap2Name": "ScrewDiameter",
       "ap1ID": "id-586",
       "ap2ID": "id-478"
@@ -11287,11 +13922,6 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-8224",
       "ap2ID": "id-8248"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-8248",
-      "ap2ID": "id-13"
     },
     {
       "ap2Name": "geometry",
@@ -11344,6 +13974,11 @@
       "ap2ID": "id-4283"
     },
     {
+      "ap2Name": "Shape",
+      "ap1ID": "id-478",
+      "ap2ID": "id-10436"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-4283",
       "ap2ID": "id-8224"
@@ -11374,6 +14009,21 @@
       "ap2ID": "id-10407"
     },
     {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-10407",
+      "ap2ID": "id-10426"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-10410",
+      "ap2ID": "id-10426"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-10413",
+      "ap2ID": "id-10426"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-10417",
       "ap2ID": "id-10420"
@@ -11382,6 +14032,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-10420",
       "ap2ID": "id-10426"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-10426",
+      "ap2ID": "id-13"
     }
   ],
   "unitsKey": "MM",
