@@ -11131,8 +11131,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.6461704422869471,
-      "y": 0.17321016166281755,
+      "x": 0.6720604099244877,
+      "y": 0.14087759815242495,
       "uniqueID": "id-10436",
       "name": "StackerSideways",
       "ioValues": [
@@ -11167,6 +11167,10 @@
         {
           "name": "RotateZ",
           "ioValue": 0
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
         }
       ],
       "topLevel": false,
@@ -11386,7 +11390,7 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
-          "readMeText": "Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. ",
+          "readMeText": "Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. \n\nIn this version I changed the equation to just be less than so that there wouldn't be an extra copy on the far end. It will make copies of the first side and move them into the middle.  I also changed the move to nudge the middle supports half of WoodThick back so they are centered. ",
           "global": true
         },
         {
@@ -11427,6 +11431,10 @@
             {
               "name": "RotateZ",
               "ioValue": 0
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 19.05
             }
           ],
           "topLevel": false,
@@ -11526,10 +11534,10 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.3236245954692557,
-              "y": 0.6258660508083141,
+              "x": 0.32308522114347354,
+              "y": 0.6073903002309469,
               "uniqueID": "id-10468",
-              "name": "t * ( i -1) * move",
+              "name": "t * (( i -1) * move -.5 * WT)",
               "ioValues": [
                 {
                   "name": "i",
@@ -11538,9 +11546,13 @@
                 {
                   "name": "move",
                   "ioValue": 0
+                },
+                {
+                  "name": "WT",
+                  "ioValue": 19.05
                 }
               ],
-              "currentEquation": "t * ( i -1) * move"
+              "currentEquation": "t * (( i -1) * move -.5 * WT)"
             },
             {
               "atomType": "Move",
@@ -11554,7 +11566,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0
+                  "ioValue": -9.525
                 },
                 {
                   "name": "yDist",
@@ -11685,6 +11697,13 @@
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.7040000000000002,
+              "uniqueID": "id-10894",
+              "name": "WoodThick"
             }
           ],
           "allConnectors": [
@@ -11822,6 +11841,11 @@
               "ap2Name": "zDist",
               "ap1ID": "id-10476",
               "ap2ID": "id-10469"
+            },
+            {
+              "ap2Name": "WT",
+              "ap1ID": "id-10894",
+              "ap2ID": "id-10468"
             }
           ],
           "fileTypeVersion": 1
@@ -11864,6 +11888,10 @@
             {
               "name": "RotateZ",
               "ioValue": 0
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 19.05
             }
           ],
           "topLevel": false,
@@ -11963,10 +11991,10 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.3236245954692557,
-              "y": 0.6258660508083141,
+              "x": 0.3290183387270766,
+              "y": 0.5958429561200923,
               "uniqueID": "id-10489",
-              "name": "t * ( i -1) * move",
+              "name": "t * (( i -1) * move -.5 * WT)",
               "ioValues": [
                 {
                   "name": "i",
@@ -11975,9 +12003,13 @@
                 {
                   "name": "move",
                   "ioValue": 0
+                },
+                {
+                  "name": "WT",
+                  "ioValue": 19.05
                 }
               ],
-              "currentEquation": "t * ( i -1) * move"
+              "currentEquation": "t * (( i -1) * move -.5 * WT)"
             },
             {
               "atomType": "Move",
@@ -11991,7 +12023,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0
+                  "ioValue": -9.525
                 },
                 {
                   "name": "yDist",
@@ -12122,6 +12154,13 @@
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.7040000000000002,
+              "uniqueID": "id-10901",
+              "name": "WoodThick"
             }
           ],
           "allConnectors": [
@@ -12259,6 +12298,11 @@
               "ap2Name": "zDist",
               "ap1ID": "id-10497",
               "ap2ID": "id-10490"
+            },
+            {
+              "ap2Name": "WT",
+              "ap1ID": "id-10901",
+              "ap2ID": "id-10489"
             }
           ],
           "fileTypeVersion": 1
@@ -12301,6 +12345,10 @@
             {
               "name": "RotateZ",
               "ioValue": 0
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 19.05
             }
           ],
           "topLevel": false,
@@ -12403,7 +12451,7 @@
               "x": 0.3236245954692557,
               "y": 0.6258660508083141,
               "uniqueID": "id-10510",
-              "name": "t * ( i -1) * move",
+              "name": "t * (( i -1) * move -.5 * WT)",
               "ioValues": [
                 {
                   "name": "i",
@@ -12412,9 +12460,13 @@
                 {
                   "name": "move",
                   "ioValue": 0
+                },
+                {
+                  "name": "WT",
+                  "ioValue": 19.05
                 }
               ],
-              "currentEquation": "t * ( i -1) * move"
+              "currentEquation": "t * (( i -1) * move -.5 * WT)"
             },
             {
               "atomType": "Move",
@@ -12428,7 +12480,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0
+                  "ioValue": -9.525
                 },
                 {
                   "name": "yDist",
@@ -12472,8 +12524,8 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.3274002157497303,
-              "y": 0.47344110854503463,
+              "x": 0.32524271844660196,
+              "y": 0.47113163972286376,
               "uniqueID": "id-10514",
               "name": "t * ( i -1) * move",
               "ioValues": [
@@ -12559,6 +12611,13 @@
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.7040000000000002,
+              "uniqueID": "id-10904",
+              "name": "WoodThick"
             }
           ],
           "allConnectors": [
@@ -12696,6 +12755,11 @@
               "ap2Name": "zDist",
               "ap1ID": "id-10518",
               "ap2ID": "id-10511"
+            },
+            {
+              "ap2Name": "WT",
+              "ap1ID": "id-10904",
+              "ap2ID": "id-10510"
             }
           ],
           "fileTypeVersion": 1
@@ -12738,6 +12802,10 @@
             {
               "name": "RotateZ",
               "ioValue": 0
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 19.05
             }
           ],
           "topLevel": false,
@@ -12840,7 +12908,7 @@
               "x": 0.3236245954692557,
               "y": 0.6258660508083141,
               "uniqueID": "id-10531",
-              "name": "t * ( i -1) * move",
+              "name": "t * (( i -1) * move -.5 * WT)",
               "ioValues": [
                 {
                   "name": "i",
@@ -12849,9 +12917,13 @@
                 {
                   "name": "move",
                   "ioValue": 0
+                },
+                {
+                  "name": "WT",
+                  "ioValue": 19.05
                 }
               ],
-              "currentEquation": "t * ( i -1) * move"
+              "currentEquation": "t * (( i -1) * move -.5 * WT)"
             },
             {
               "atomType": "Move",
@@ -12996,6 +13068,13 @@
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.7040000000000002,
+              "uniqueID": "id-10908",
+              "name": "WoodThick"
             }
           ],
           "allConnectors": [
@@ -13133,6 +13212,11 @@
               "ap2Name": "zDist",
               "ap1ID": "id-10539",
               "ap2ID": "id-10532"
+            },
+            {
+              "ap2Name": "WT",
+              "ap1ID": "id-10908",
+              "ap2ID": "id-10531"
             }
           ],
           "fileTypeVersion": 1
@@ -13175,6 +13259,10 @@
             {
               "name": "RotateZ",
               "ioValue": 0
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 10
             }
           ],
           "topLevel": false,
@@ -13274,10 +13362,10 @@
             },
             {
               "atomType": "Equation",
-              "x": 0.3236245954692557,
-              "y": 0.6258660508083141,
+              "x": 0.32524271844660196,
+              "y": 0.605080831408776,
               "uniqueID": "id-10552",
-              "name": "t * ( i -1) * move",
+              "name": "t * (( i -1) * move -.5 * WT)",
               "ioValues": [
                 {
                   "name": "i",
@@ -13286,9 +13374,13 @@
                 {
                   "name": "move",
                   "ioValue": 0
+                },
+                {
+                  "name": "WT",
+                  "ioValue": 10
                 }
               ],
-              "currentEquation": "t * ( i -1) * move"
+              "currentEquation": "t * (( i -1) * move -.5 * WT)"
             },
             {
               "atomType": "Move",
@@ -13433,6 +13525,13 @@
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.7040000000000002,
+              "uniqueID": "id-10912",
+              "name": "WoodThick"
             }
           ],
           "allConnectors": [
@@ -13570,9 +13669,21 @@
               "ap2Name": "zDist",
               "ap1ID": "id-10560",
               "ap2ID": "id-10553"
+            },
+            {
+              "ap2Name": "WT",
+              "ap1ID": "id-10912",
+              "ap2ID": "id-10552"
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.6380000000000001,
+          "uniqueID": "id-10891",
+          "name": "WoodThick"
         }
       ],
       "allConnectors": [
@@ -13870,6 +13981,26 @@
           "ap2Name": "Shape 6",
           "ap1ID": "id-10540",
           "ap2ID": "id-10454"
+        },
+        {
+          "ap2Name": "WoodThick",
+          "ap1ID": "id-10891",
+          "ap2ID": "id-10456"
+        },
+        {
+          "ap2Name": "WoodThick",
+          "ap1ID": "id-10891",
+          "ap2ID": "id-10477"
+        },
+        {
+          "ap2Name": "WoodThick",
+          "ap1ID": "id-10891",
+          "ap2ID": "id-10498"
+        },
+        {
+          "ap2Name": "WoodThick",
+          "ap1ID": "id-10891",
+          "ap2ID": "id-10519"
         }
       ],
       "fileTypeVersion": 1
@@ -13998,6 +14129,11 @@
       "ap2Name": "WoodThick",
       "ap1ID": "id-37",
       "ap2ID": "id-7003"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-37",
+      "ap2ID": "id-10436"
     },
     {
       "ap2Name": "ShelfHeight",
