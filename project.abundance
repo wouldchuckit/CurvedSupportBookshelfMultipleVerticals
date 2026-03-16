@@ -203,8 +203,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3052858683926645,
-      "y": 0.6027713625866051,
+      "x": 0.25026968716289105,
+      "y": 0.6812933025404158,
       "uniqueID": "id-8224",
       "ioValues": [
         {
@@ -227,8 +227,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.4023732470334412,
-      "y": 0.48729792147806006,
+      "x": 0.3365695792880259,
+      "y": 0.4965357967667437,
       "uniqueID": "id-8248",
       "ioValues": [
         {
@@ -241,6 +241,10 @@
         },
         {
           "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
           "ioValue": null
         }
       ]
@@ -8576,8 +8580,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3678532901833873,
-      "y": 0.24942263279445726,
+      "x": 0.2599784250269687,
+      "y": 0.32101616628175517,
       "uniqueID": "id-9329",
       "ioValues": [
         {
@@ -8594,7 +8598,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 2186
         }
       ]
     },
@@ -8603,18 +8607,18 @@
       "x": 0.2599784250269687,
       "y": 0.9445727482678984,
       "uniqueID": "id-9335",
-      "name": "x + y",
+      "name": "TH - Top",
       "ioValues": [
         {
-          "name": "x",
-          "ioValue": 1
+          "name": "TH",
+          "ioValue": 2286
         },
         {
-          "name": "y",
-          "ioValue": 1
+          "name": "Top",
+          "ioValue": 100
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "TH - Top"
     }
   ],
   "allConnectors": [
@@ -8647,6 +8651,11 @@
       "ap2Name": "ElementsNumber",
       "ap1ID": "id-22",
       "ap2ID": "id-4283"
+    },
+    {
+      "ap2Name": "TH",
+      "ap1ID": "id-25",
+      "ap2ID": "id-9335"
     },
     {
       "ap2Name": "TotalDepth",
@@ -8717,6 +8726,11 @@
       "ap2Name": "ShelfHeight",
       "ap1ID": "id-40",
       "ap2ID": "id-7003"
+    },
+    {
+      "ap2Name": "Top",
+      "ap1ID": "id-40",
+      "ap2ID": "id-9335"
     },
     {
       "ap2Name": "ShelfHeight",
@@ -8816,6 +8830,16 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-7003",
+      "ap2ID": "id-9329"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-9329",
+      "ap2ID": "id-8248"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-9335",
       "ap2ID": "id-9329"
     }
   ],
