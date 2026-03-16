@@ -102,7 +102,7 @@ Copy and paste these as needed as well as index blocks. Reconnecting the index i
 
 ### StackerSideways
 
-### StackUnit
+### StackUnitSide
 
 This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
 
@@ -110,23 +110,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10554.svg?v=ncp1sqj)
+![readme](/readmeid-10554.svg?v=ntf9uvt)
 
 
 
-### StackUnit
-
-This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
-
-**Value:** true
-
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
-
-![readme](/readmeid-10533.svg?v=nl7y53w)
-
-
-
-### StackUnit
+### StackUnitSide
 
 This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
 
@@ -134,23 +122,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10512.svg?v=n9u9clu)
+![readme](/readmeid-10533.svg?v=ollmhb)
 
 
 
-### StackUnit
-
-This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
-
-**Value:** true
-
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
-
-![readme](/readmeid-10491.svg?v=nx9cn2e)
-
-
-
-### StackUnit
+### StackUnitSide
 
 This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
 
@@ -158,7 +134,31 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10470.svg?v=ntf9uvt)
+![readme](/readmeid-10512.svg?v=sdd3m1)
+
+
+
+### StackUnitSIde
+
+This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
+
+**Value:** true
+
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10491.svg?v=nvqgrx5)
+
+
+
+### StackUnitSide
+
+This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
+
+**Value:** true
+
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10470.svg?v=ncp1sqj)
 
 
 
