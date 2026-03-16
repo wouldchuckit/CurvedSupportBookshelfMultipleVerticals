@@ -118,11 +118,11 @@ I did rotate first because it made sense to me to position your object relative 
 
 This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
 
-**Value:** true
+**Value:** false
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10533.svg?v=ollmhb)
+![readme](/readmeid-10533.svg?v=ncp1sqj)
 
 
 

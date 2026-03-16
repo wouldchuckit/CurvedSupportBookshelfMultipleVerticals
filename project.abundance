@@ -11353,10 +11353,6 @@
           "uniqueID": "id-10454",
           "ioValues": [
             {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
               "name": "Shape 2",
               "ioValue": null
             },
@@ -11370,6 +11366,10 @@
             },
             {
               "name": "Shape 6",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 7",
               "ioValue": null
             }
           ]
@@ -11511,7 +11511,7 @@
               "x": 0.11650485436893203,
               "y": 0.7736720554272518,
               "uniqueID": "id-10467",
-              "name": "NumberE >= i >0",
+              "name": "NumberE > i >0",
               "ioValues": [
                 {
                   "name": "NumberE",
@@ -11522,7 +11522,7 @@
                   "ioValue": 1
                 }
               ],
-              "currentEquation": "NumberE >= i >0"
+              "currentEquation": "NumberE > i >0"
             },
             {
               "atomType": "Equation",
@@ -11948,7 +11948,7 @@
               "x": 0.12837108953613807,
               "y": 0.7875288683602771,
               "uniqueID": "id-10488",
-              "name": "NumberE >= i >0",
+              "name": "NumberE >i >0",
               "ioValues": [
                 {
                   "name": "NumberE",
@@ -11959,7 +11959,7 @@
                   "ioValue": 2
                 }
               ],
-              "currentEquation": "NumberE >= i >0"
+              "currentEquation": "NumberE >i >0"
             },
             {
               "atomType": "Equation",
@@ -12043,6 +12043,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12057,6 +12061,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12071,6 +12079,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12373,7 +12385,7 @@
               "x": 0.12837108953613807,
               "y": 0.7875288683602771,
               "uniqueID": "id-10509",
-              "name": "NumberE >= i >0",
+              "name": "NumberE >i >0",
               "ioValues": [
                 {
                   "name": "NumberE",
@@ -12384,7 +12396,7 @@
                   "ioValue": 3
                 }
               ],
-              "currentEquation": "NumberE >= i >0"
+              "currentEquation": "NumberE >i >0"
             },
             {
               "atomType": "Equation",
@@ -12468,6 +12480,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12482,6 +12498,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12496,6 +12516,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12798,7 +12822,7 @@
               "x": 0.12837108953613807,
               "y": 0.7875288683602771,
               "uniqueID": "id-10530",
-              "name": "NumberE >= i >0",
+              "name": "NumberE > i >0",
               "ioValues": [
                 {
                   "name": "NumberE",
@@ -12809,7 +12833,7 @@
                   "ioValue": 4
                 }
               ],
-              "currentEquation": "NumberE >= i >0"
+              "currentEquation": "NumberE > i >0"
             },
             {
               "atomType": "Equation",
@@ -12845,11 +12869,11 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 1000
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 30
+                  "ioValue": 0
                 }
               ]
             },
@@ -12893,6 +12917,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12907,6 +12935,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -12921,6 +12953,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -13223,7 +13259,7 @@
               "x": 0.09870550161812297,
               "y": 0.7413394919168591,
               "uniqueID": "id-10551",
-              "name": "NumberE >= i >0",
+              "name": "NumberE > i >0",
               "ioValues": [
                 {
                   "name": "NumberE",
@@ -13234,7 +13270,7 @@
                   "ioValue": 5
                 }
               ],
-              "currentEquation": "NumberE >= i >0"
+              "currentEquation": "NumberE > i >0"
             },
             {
               "atomType": "Equation",
@@ -13318,6 +13354,10 @@
                 {
                   "name": "i",
                   "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -13332,6 +13372,10 @@
                 {
                   "name": "i",
                   "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -13346,6 +13390,10 @@
                 {
                   "name": "i",
                   "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -13794,14 +13842,14 @@
           "ap2ID": "id-10437"
         },
         {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-10456",
-          "ap2ID": "id-10454"
-        },
-        {
           "ap2Name": "value",
           "ap1ID": "id-10456",
           "ap2ID": "id-10455"
+        },
+        {
+          "ap2Name": "Shape 7",
+          "ap1ID": "id-10456",
+          "ap2ID": "id-10454"
         },
         {
           "ap2Name": "Shape 2",
