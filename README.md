@@ -100,13 +100,13 @@ Copy and paste these as needed as well as index blocks. Reconnecting the index i
 
 
 
-Shelf number is not a perfect parameter.  It calculates heights of shelves. you will need to copy the shelf elements and input an index in each one to build the whole shelf
-
-**Value:** 4
-
 This is the ShelfHeight. for each shelf unit
 
 **Value:** 521.5
+
+Shelf number is not a perfect parameter.  It calculates heights of shelves. you will will need to copy and paste Units and index equaitons inside the Molecule Stacker and connect the new Units to their own index numbers. 
+
+**Value:** 4
 
 
 
