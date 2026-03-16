@@ -227,8 +227,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.31283710895361383,
-      "y": 0.5011547344110855,
+      "x": 0.4023732470334412,
+      "y": 0.48729792147806006,
       "uniqueID": "id-8248",
       "ioValues": [
         {
@@ -4102,7 +4102,8 @@
         },
         {
           "name": "MoveX",
-          "ioValue": 10
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "MoveY",
@@ -4362,7 +4363,7 @@
             },
             {
               "name": "MoveX",
-              "ioValue": 10
+              "ioValue": 0
             },
             {
               "name": "MoveY",
@@ -4493,7 +4494,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -4799,7 +4800,7 @@
             },
             {
               "name": "MoveX",
-              "ioValue": 10
+              "ioValue": 0
             },
             {
               "name": "MoveY",
@@ -4930,7 +4931,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -4947,7 +4948,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 10
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
@@ -5236,7 +5237,7 @@
             },
             {
               "name": "MoveX",
-              "ioValue": 10
+              "ioValue": 0
             },
             {
               "name": "MoveY",
@@ -5367,7 +5368,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5384,7 +5385,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 20
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
@@ -5673,7 +5674,7 @@
             },
             {
               "name": "MoveX",
-              "ioValue": 10
+              "ioValue": 0
             },
             {
               "name": "MoveY",
@@ -5804,7 +5805,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -5821,7 +5822,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 30
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
@@ -6110,7 +6111,7 @@
             },
             {
               "name": "MoveX",
-              "ioValue": 10
+              "ioValue": 0
             },
             {
               "name": "MoveY",
@@ -6241,7 +6242,7 @@
                 },
                 {
                   "name": "move",
-                  "ioValue": 10
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -8572,6 +8573,48 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3678532901833873,
+      "y": 0.24942263279445726,
+      "uniqueID": "id-9329",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2599784250269687,
+      "y": 0.9445727482678984,
+      "uniqueID": "id-9335",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -8769,6 +8812,11 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-7003",
       "ap2ID": "id-8248"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7003",
+      "ap2ID": "id-9329"
     }
   ],
   "unitsKey": "MM",
