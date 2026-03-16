@@ -26,7 +26,11 @@ This is single point patch to cover the inflection point where the two circles m
 
 
 
-Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height
+Curved shelf support element consisting of two tangent circles. It works up until the width is about 3 times the height 
+
+![readme](/readmeid-332.svg?v=nd8btqt)
+
+
 
 ### Stacker
 
@@ -36,7 +40,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-18160.svg?v=nsdcofz)
+
+
 
 ### StackUnit
 
@@ -44,7 +52,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-5187.svg?v=nazp5b3)
+
+
 
 ### StackUnit
 
@@ -52,7 +64,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-18083.svg?v=fcnr0r)
+
+
 
 ### StackUnit
 
@@ -60,7 +76,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-5104.svg?v=klh458)
+
+
 
 ### StackUnit
 
@@ -68,7 +88,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-18237.svg?v=nmghlkx)
+
+
 
 ### StackUnit
 
@@ -76,7 +100,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-5021.svg?v=nn807ln)
+
+
 
 ### StackUnit
 
@@ -84,7 +112,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-4938.svg?v=nvuzqo5)
+
+
 
 ### StackUnit
 
@@ -92,9 +124,17 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. 
+![readme](/readmeid-4408.svg?v=kmwkv4)
+
+
+
+Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power.  
+
+![readme](/readmeid-4354.svg?v=kmwkv4)
+
+
 
 ### StackerSideways
 
@@ -104,7 +144,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** false
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10554.svg?v=nanejix)
+
+
 
 ### StackUnitSide
 
@@ -112,7 +156,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10533.svg?v=e31lmg)
+
+
 
 ### StackUnitSide
 
@@ -120,7 +168,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10512.svg?v=lz5sgo)
+
+
 
 ### StackUnitSIde
 
@@ -128,7 +180,11 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10491.svg?v=nmmtf1)
+
+
 
 ### StackUnitSide
 
@@ -136,11 +192,19 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 **Value:** true
 
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
+![readme](/readmeid-10470.svg?v=brgnue)
+
+
 
 Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. 
 
-In this version I changed the equation to just be less than so that there wouldn't be an extra copy on the far end. It will make copies of the first side and move them into the middle.  I also changed the move to nudge the middle supports half of WoodThick back so they are centered. 
+In this version I changed the equation to just be less than so that there wouldn't be an extra copy on the far end. It will make copies of the first side and move them into the middle.  I also changed the move to nudge the middle supports half of WoodThick back so they are centered.  
+
+![readme](/readmeid-10455.svg?v=brgnue)
+
+
 
 This is the ShelfHeight. for each shelf unit
 
