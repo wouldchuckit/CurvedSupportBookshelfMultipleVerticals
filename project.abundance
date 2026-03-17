@@ -799,7 +799,9 @@
                         "bom": []
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "7"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -849,7 +851,9 @@
                         "bom": []
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "8"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -1847,7 +1851,9 @@
                         "color": "#aad7f2"
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "7"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -1947,7 +1953,9 @@
                         "color": "#aad7f2"
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "8"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -3010,7 +3018,9 @@
                         "color": "#aad7f2"
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "7"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -3110,7 +3120,9 @@
                         "color": "#aad7f2"
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "8"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -3392,7 +3404,7 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.7378640776699028,
+      "x": 0.7405609492988133,
       "y": 0.13856812933025403,
       "uniqueID": "id-19864",
       "name": "Cut Layout",
@@ -3430,36 +3442,6 @@
           }
         ]
       ]
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.8441208198489751,
-      "y": 0.32101616628175517,
-      "uniqueID": "id-19871",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": []
     },
     {
       "atomType": "Molecule",
@@ -16036,6 +16018,215 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.7923408845738942,
+      "y": 0.27713625866050806,
+      "uniqueID": "id-21520",
+      "name": "Shelf layout",
+      "ioValues": [
+        {
+          "name": "ShelfArrary",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-21522",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.21016166281755197,
+          "uniqueID": "id-21524",
+          "name": "ShelfArrary",
+          "type": "geometry"
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.14185544768069042,
+          "y": 0.14087759815242495,
+          "uniqueID": "id-21527",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "1",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.14347357065803668,
+          "y": 0.25635103926096997,
+          "uniqueID": "id-21530",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "2",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.8554476806903991,
+          "y": 0.5127020785219399,
+          "uniqueID": "id-21538",
+          "ioValues": []
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.13969795037756202,
+          "y": 0.3741339491916859,
+          "uniqueID": "id-21541",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "3",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.13646170442286948,
+          "y": 0.48267898383371827,
+          "uniqueID": "id-21544",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "4",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.13807982740021574,
+          "y": 0.6073903002309469,
+          "uniqueID": "id-21547",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "5",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.13969795037756202,
+          "y": 0.7367205542725173,
+          "uniqueID": "id-21550",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "6",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.13861920172599784,
+          "y": 0.8475750577367206,
+          "uniqueID": "id-21553",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.13646170442286948,
+          "y": 0.9584295612009238,
+          "uniqueID": "id-21556",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tagIndex": 0
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21527"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21530"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21541"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21544"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21547"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21550"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21553"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21556"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-21538",
+          "ap2ID": "id-21522"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -16300,9 +16491,9 @@
       "ap2ID": "id-16627"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "ShelfArrary",
       "ap1ID": "id-10404",
-      "ap2ID": "id-19871"
+      "ap2ID": "id-21520"
     },
     {
       "ap2Name": "geometry",
