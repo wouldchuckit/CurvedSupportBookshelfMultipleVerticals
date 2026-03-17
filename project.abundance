@@ -435,7 +435,9 @@
                     "bom": []
                   }
                 ],
-                "tags": [],
+                "tags": [
+                  "Base"
+                ],
                 "bom": [],
                 "plane": {
                   "origin": [
@@ -1139,7 +1141,9 @@
                     "color": "#aad7f2"
                   }
                 ],
-                "tags": [],
+                "tags": [
+                  "Base"
+                ],
                 "bom": [],
                 "plane": {
                   "origin": [
@@ -2308,7 +2312,9 @@
                     "color": "#aad7f2"
                   }
                 ],
-                "tags": [],
+                "tags": [
+                  "Base"
+                ],
                 "bom": [],
                 "plane": {
                   "origin": [
@@ -16130,6 +16136,14 @@
             {
               "name": "Shape 9",
               "ioValue": null
+            },
+            {
+              "name": "Shape 10",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 11",
+              "ioValue": null
             }
           ]
         },
@@ -16165,8 +16179,8 @@
         },
         {
           "atomType": "ExtractTag",
-          "x": 0.13807982740021574,
-          "y": 0.6073903002309469,
+          "x": 0.14563106796116507,
+          "y": 0.6120092378752886,
           "uniqueID": "id-21547",
           "name": "Extract Tag",
           "ioValues": [
@@ -16225,8 +16239,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.31661272923408845,
-          "y": 0.76905311778291,
+          "x": 0.38888888888888884,
+          "y": 0.8013856812933026,
           "uniqueID": "id-21581",
           "ioValues": [
             {
@@ -16262,7 +16276,9 @@
                         "bom": []
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "Base"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -16832,6 +16848,36 @@
             }
           ],
           "placements": []
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.33117583603020495,
+          "y": 0.12009237875288684,
+          "uniqueID": "id-21602",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "Top",
+          "tagIndex": 0
+        },
+        {
+          "atomType": "ExtractTag",
+          "x": 0.28371089536138083,
+          "y": 0.9399538106235567,
+          "uniqueID": "id-21605",
+          "name": "Extract Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tag": "Base",
+          "tagIndex": 0
         }
       ],
       "allConnectors": [
@@ -16881,6 +16927,16 @@
           "ap2ID": "id-21581"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21602"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21524",
+          "ap2ID": "id-21605"
+        },
+        {
           "ap2Name": "Shape 9",
           "ap1ID": "id-21527",
           "ap2ID": "id-21538"
@@ -16894,11 +16950,6 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-21538",
           "ap2ID": "id-21522"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-21538",
-          "ap2ID": "id-21586"
         },
         {
           "ap2Name": "Shape 3",
@@ -16926,6 +16977,11 @@
           "ap2ID": "id-21538"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21553",
+          "ap2ID": "id-21586"
+        },
+        {
           "ap2Name": "Shape 8",
           "ap1ID": "id-21556",
           "ap2ID": "id-21538"
@@ -16933,6 +16989,16 @@
         {
           "ap2Name": "Shape 1",
           "ap1ID": "id-21581",
+          "ap2ID": "id-21538"
+        },
+        {
+          "ap2Name": "Shape 11",
+          "ap1ID": "id-21602",
+          "ap2ID": "id-21538"
+        },
+        {
+          "ap2Name": "Shape 10",
+          "ap1ID": "id-21605",
           "ap2ID": "id-21538"
         }
       ],
@@ -16956,8 +17022,8 @@
     },
     {
       "atomType": "Tag",
-      "x": 0.2459546925566343,
-      "y": 0.24018475750577367,
+      "x": 0.28371089536138083,
+      "y": 0.36027713625866054,
       "uniqueID": "id-21599",
       "name": "Base",
       "ioValues": [
