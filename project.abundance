@@ -261,8 +261,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.30906148867313915,
-      "y": 0.13856812933025403,
+      "x": 0.3176914778856526,
+      "y": 0.12471131639722863,
       "uniqueID": "id-9329",
       "ioValues": [
         {
@@ -285,8 +285,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.2761596548004315,
-      "y": 0.2817551963048499,
+      "x": 0.3144552319309601,
+      "y": 0.24018475750577367,
       "uniqueID": "id-9335",
       "name": "TH - Top",
       "ioValues": [
@@ -925,7 +925,9 @@
                     "bom": []
                   }
                 ],
-                "tags": [],
+                "tags": [
+                  "Top"
+                ],
                 "bom": [],
                 "plane": {
                   "origin": [
@@ -2077,7 +2079,9 @@
                     "color": "#aad7f2"
                   }
                 ],
-                "tags": [],
+                "tags": [
+                  "Top"
+                ],
                 "bom": [],
                 "plane": {
                   "origin": [
@@ -3244,7 +3248,9 @@
                     "color": "#aad7f2"
                   }
                 ],
-                "tags": [],
+                "tags": [
+                  "Top"
+                ],
                 "bom": [],
                 "plane": {
                   "origin": [
@@ -11575,8 +11581,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.23894282632146707,
-      "y": 0.13163972286374134,
+      "x": 0.23031283710895362,
+      "y": 0.12009237875288684,
       "uniqueID": "id-7003",
       "name": "TopSection",
       "ioValues": [
@@ -16746,7 +16752,9 @@
                         "bom": []
                       }
                     ],
-                    "tags": [],
+                    "tags": [
+                      "Top"
+                    ],
                     "bom": [],
                     "plane": {
                       "origin": [
@@ -16794,6 +16802,36 @@
             }
           ],
           "unionType": "Fusion"
+        },
+        {
+          "atomType": "CutLayout",
+          "x": 0.5426105717367853,
+          "y": 0.6166281755196305,
+          "uniqueID": "id-21586",
+          "name": "Cut Layout",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Sheet Width",
+              "ioValue": 2438
+            },
+            {
+              "name": "Sheet Height",
+              "ioValue": 1219
+            },
+            {
+              "name": "Part Padding",
+              "ioValue": 10
+            },
+            {
+              "name": "Orientations",
+              "ioValue": 12
+            }
+          ],
+          "placements": []
         }
       ],
       "allConnectors": [
@@ -16858,6 +16896,11 @@
           "ap2ID": "id-21522"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21538",
+          "ap2ID": "id-21586"
+        },
+        {
           "ap2Name": "Shape 3",
           "ap1ID": "id-21541",
           "ap2ID": "id-21538"
@@ -16894,6 +16937,38 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.3775620280474649,
+      "y": 0.11547344110854503,
+      "uniqueID": "id-21596",
+      "name": "Top",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "Top"
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.2459546925566343,
+      "y": 0.24018475750577367,
+      "uniqueID": "id-21599",
+      "name": "Base",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "Base"
+      ]
     }
   ],
   "allConnectors": [
@@ -17133,9 +17208,9 @@
       "ap2ID": "id-10417"
     },
     {
-      "ap2Name": "Shape 4",
+      "ap2Name": "geometry",
       "ap1ID": "id-9329",
-      "ap2ID": "id-8248"
+      "ap2ID": "id-21596"
     },
     {
       "ap2Name": "zDist",
@@ -17248,19 +17323,29 @@
       "ap2ID": "id-8224"
     },
     {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-7003",
-      "ap2ID": "id-8248"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-7003",
       "ap2ID": "id-9329"
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-7003",
+      "ap2ID": "id-21599"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-10436",
       "ap2ID": "id-15190"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-21596",
+      "ap2ID": "id-8248"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-21599",
+      "ap2ID": "id-8248"
     }
   ],
   "unitsKey": "MM",
