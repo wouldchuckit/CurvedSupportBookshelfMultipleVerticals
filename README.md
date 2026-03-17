@@ -78,7 +78,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-5104.svg?v=nx8xp5f)
+![readme](/readmeid-18237.svg?v=nx8xp5f)
 
 
 
@@ -90,7 +90,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-18237.svg?v=nx8xp5f)
+![readme](/readmeid-5104.svg?v=nx8xp5f)
 
 
 
@@ -146,7 +146,7 @@ This is t.  It reads true or false to turn on or off the movement. When the stat
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-10554.svg?v=c00ebm)
+![readme](/readmeid-10554.svg?v=vylhmq)
 
 
 
