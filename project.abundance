@@ -16847,7 +16847,18 @@
               "ioValue": 12
             }
           ],
-          "placements": []
+          "placements": [
+            [
+              {
+                "id": 0,
+                "rotate": 0,
+                "translate": {
+                  "x": 205.2,
+                  "y": 505.2
+                }
+              }
+            ]
+          ]
         },
         {
           "atomType": "ExtractTag",
@@ -16947,6 +16958,11 @@
           "ap2ID": "id-21538"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21530",
+          "ap2ID": "id-21586"
+        },
+        {
           "ap2Name": "number or geometry",
           "ap1ID": "id-21538",
           "ap2ID": "id-21522"
@@ -16975,11 +16991,6 @@
           "ap2Name": "Shape 7",
           "ap1ID": "id-21553",
           "ap2ID": "id-21538"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-21553",
-          "ap2ID": "id-21586"
         },
         {
           "ap2Name": "Shape 8",
