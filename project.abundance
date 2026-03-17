@@ -16085,10 +16085,43 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.8554476806903991,
-          "y": 0.5127020785219399,
+          "x": 0.6682847896440129,
+          "y": 0.29330254041570436,
           "uniqueID": "id-21538",
-          "ioValues": []
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 5",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 6",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 7",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 8",
+              "ioValue": null
+            }
+          ]
         },
         {
           "atomType": "ExtractTag",
@@ -16179,6 +16212,36 @@
           ],
           "tag": "8",
           "tagIndex": 0
+        },
+        {
+          "atomType": "CutLayout",
+          "x": 0.7513484358144552,
+          "y": 0.5750577367205543,
+          "uniqueID": "id-21574",
+          "name": "Cut Layout",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Sheet Width",
+              "ioValue": 2438
+            },
+            {
+              "name": "Sheet Height",
+              "ioValue": 1219
+            },
+            {
+              "name": "Part Padding",
+              "ioValue": 10
+            },
+            {
+              "name": "Orientations",
+              "ioValue": 12
+            }
+          ],
+          "placements": []
         }
       ],
       "allConnectors": [
@@ -16223,9 +16286,54 @@
           "ap2ID": "id-21556"
         },
         {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-21527",
+          "ap2ID": "id-21538"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-21530",
+          "ap2ID": "id-21538"
+        },
+        {
           "ap2Name": "number or geometry",
           "ap1ID": "id-21538",
           "ap2ID": "id-21522"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-21538",
+          "ap2ID": "id-21574"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-21541",
+          "ap2ID": "id-21538"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-21544",
+          "ap2ID": "id-21538"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-21547",
+          "ap2ID": "id-21538"
+        },
+        {
+          "ap2Name": "Shape 6",
+          "ap1ID": "id-21550",
+          "ap2ID": "id-21538"
+        },
+        {
+          "ap2Name": "Shape 7",
+          "ap1ID": "id-21553",
+          "ap2ID": "id-21538"
+        },
+        {
+          "ap2Name": "Shape 8",
+          "ap1ID": "id-21556",
+          "ap2ID": "id-21538"
         }
       ],
       "fileTypeVersion": 1
