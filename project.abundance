@@ -8737,6 +8737,18 @@
             {
               "name": "MoveZ",
               "ioValue": 266.6666666666667
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -8916,6 +8928,10 @@
                 {
                   "name": "i",
                   "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -8930,6 +8946,10 @@
                 {
                   "name": "i",
                   "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -8944,6 +8964,10 @@
                 {
                   "name": "i",
                   "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -9150,6 +9174,18 @@
             {
               "name": "MoveZ",
               "ioValue": 266.6666666666667
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -9563,6 +9599,18 @@
             {
               "name": "MoveZ",
               "ioValue": 266.6666666666667
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -9976,6 +10024,18 @@
             {
               "name": "MoveZ",
               "ioValue": 266.6666666666667
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -10389,6 +10449,18 @@
             {
               "name": "MoveZ",
               "ioValue": 266.6666666666667
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -10802,6 +10874,18 @@
             {
               "name": "MoveZ",
               "ioValue": 266.6666666666667
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -11215,6 +11299,18 @@
             {
               "name": "MoveZ",
               "ioValue": 266.6666666666667
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -11628,6 +11724,18 @@
             {
               "name": "MoveZ",
               "ioValue": 266.6666666666667
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
             }
           ],
           "topLevel": false,
