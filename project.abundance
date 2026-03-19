@@ -9365,6 +9365,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -9379,6 +9383,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -9393,6 +9401,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -9790,6 +9802,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -9804,6 +9820,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -9818,6 +9838,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -10215,6 +10239,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -10229,6 +10257,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -10243,6 +10275,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -10640,6 +10676,10 @@
                 {
                   "name": "i",
                   "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -10654,6 +10694,10 @@
                 {
                   "name": "i",
                   "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -10668,6 +10712,10 @@
                 {
                   "name": "i",
                   "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11065,6 +11113,10 @@
                 {
                   "name": "i",
                   "ioValue": 6
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11079,6 +11131,10 @@
                 {
                   "name": "i",
                   "ioValue": 6
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11093,6 +11149,10 @@
                 {
                   "name": "i",
                   "ioValue": 6
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11490,6 +11550,10 @@
                 {
                   "name": "i",
                   "ioValue": 7
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11504,6 +11568,10 @@
                 {
                   "name": "i",
                   "ioValue": 7
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11518,6 +11586,10 @@
                 {
                   "name": "i",
                   "ioValue": 7
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11915,6 +11987,10 @@
                 {
                   "name": "i",
                   "ioValue": 8
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11929,6 +12005,10 @@
                 {
                   "name": "i",
                   "ioValue": 8
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -11943,6 +12023,10 @@
                 {
                   "name": "i",
                   "ioValue": 8
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -14498,6 +14582,12 @@
           "y": 0.23868360277136258,
           "uniqueID": "id-10444",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 6
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -14506,6 +14596,12 @@
           "y": 0.12321016166281755,
           "uniqueID": "id-10445",
           "name": "i + 1",
+          "ioValues": [
+            {
+              "name": "i",
+              "ioValue": 7
+            }
+          ],
           "currentEquation": "i + 1"
         },
         {
@@ -14641,6 +14737,22 @@
             {
               "name": "MoveZ",
               "ioValue": 0
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 19.05
             }
           ],
           "topLevel": false,
@@ -14820,6 +14932,10 @@
                 {
                   "name": "i",
                   "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -14834,6 +14950,10 @@
                 {
                   "name": "i",
                   "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -14848,6 +14968,10 @@
                 {
                   "name": "i",
                   "ioValue": 1
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -15065,6 +15189,22 @@
             {
               "name": "MoveZ",
               "ioValue": 0
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 19.05
             }
           ],
           "topLevel": false,
@@ -15244,6 +15384,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -15258,6 +15402,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -15272,6 +15420,10 @@
                 {
                   "name": "i",
                   "ioValue": 2
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -15489,6 +15641,22 @@
             {
               "name": "MoveZ",
               "ioValue": 0
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 19.05
             }
           ],
           "topLevel": false,
@@ -15668,6 +15836,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -15682,6 +15854,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -15696,6 +15872,10 @@
                 {
                   "name": "i",
                   "ioValue": 3
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -15913,6 +16093,22 @@
             {
               "name": "MoveZ",
               "ioValue": 0
+            },
+            {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
+            },
+            {
+              "name": "WoodThick",
+              "ioValue": 19.05
             }
           ],
           "topLevel": false,
@@ -16092,6 +16288,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -16106,6 +16306,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -16120,6 +16324,10 @@
                 {
                   "name": "i",
                   "ioValue": 4
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -16339,6 +16547,18 @@
               "ioValue": 0
             },
             {
+              "name": "RotateX",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateY",
+              "ioValue": 0
+            },
+            {
+              "name": "RotateZ",
+              "ioValue": 0
+            },
+            {
               "name": "WoodThick",
               "ioValue": 10
             }
@@ -16520,6 +16740,10 @@
                 {
                   "name": "i",
                   "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -16534,6 +16758,10 @@
                 {
                   "name": "i",
                   "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -16548,6 +16776,10 @@
                 {
                   "name": "i",
                   "ioValue": 5
+                },
+                {
+                  "name": "move",
+                  "ioValue": 0
                 }
               ],
               "currentEquation": "t * ( i -1) * move"
@@ -17058,6 +17290,36 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.33279395900755127,
+      "y": 0.8868360277136258,
+      "uniqueID": "id-23280",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "To make sure the cut layout works. Only connect the exact number of StackUnits that you need to the assembly",
+      "global": true
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.6585760517799353,
+      "y": 0.8914549653579676,
+      "uniqueID": "id-23282",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "To make sure the cut layout work Make sure you only connect one less than the number of verticals that you need. ",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -17422,6 +17684,11 @@
       "ap2ID": "id-8224"
     },
     {
+      "ap2Name": "value",
+      "ap1ID": "id-4283",
+      "ap2ID": "id-23280"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-7003",
       "ap2ID": "id-9329"
@@ -17435,6 +17702,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-10436",
       "ap2ID": "id-15190"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-10436",
+      "ap2ID": "id-23282"
     }
   ],
   "unitsKey": "MM",

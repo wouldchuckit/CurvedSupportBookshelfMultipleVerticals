@@ -214,5 +214,17 @@ Shelf number is not a perfect parameter.  It calculates heights of shelves. you 
 
 **Value:** 3
 
+To make sure the cut layout works. Only connect the exact number of StackUnits that you need to the assembly 
+
+![readme](/readmeid-23280.svg?v=n1vqcid)
+
+
+
+To make sure the cut layout work Make sure you only connect one less than the number of verticals that you need.  
+
+![readme](/readmeid-23282.svg?v=jwrck2)
+
+
+
 
 
