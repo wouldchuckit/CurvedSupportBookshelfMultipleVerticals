@@ -136,6 +136,14 @@ Copy and paste these as needed as well as index blocks. Reconnecting the index i
 
 
 
+This is the ShelfHeight. for each shelf unit
+
+**Value:** 266.6666666666667
+
+Shelf number is not a perfect parameter.  It calculates heights of shelves. you will will need to copy and paste Units and index equaitons inside the Molecule Stacker and connect the new Units to their own index numbers. 
+
+**Value:** 3
+
 ### StackerSideways
 
 ### StackUnitSide
@@ -205,14 +213,6 @@ In this version I changed the equation to just be less than so that there wouldn
 ![readme](/readmeid-10455.svg?v=n3uyr6c)
 
 
-
-This is the ShelfHeight. for each shelf unit
-
-**Value:** 266.6666666666667
-
-Shelf number is not a perfect parameter.  It calculates heights of shelves. you will will need to copy and paste Units and index equaitons inside the Molecule Stacker and connect the new Units to their own index numbers. 
-
-**Value:** 3
 
 To make sure the cut layout works. Only connect the exact number of StackUnits that you need to the assembly 
 
