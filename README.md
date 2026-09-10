@@ -6,6 +6,7 @@
 
 ## Inputs
 
+- **VertNumber** (number)
 - **CurveSupportWidth** (number)
 - **ShelfNumber** (number)
 - **TotalHeight** (number)
@@ -16,7 +17,6 @@
 - **TopHeight** (number)
 - **ScrewShaft** (number)
 - **ScrewHead** (number)
-- **VertNumber** (number)
 
 
 
@@ -57,6 +57,18 @@ false
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
+![readme](/readmeid-5187.svg?v=dsdj64)
+
+
+
+### StackUnit
+
+This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
+
+false
+
+I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
+
 ![readme](/readmeid-18160.svg?v=dsdj64)
 
 
@@ -69,7 +81,7 @@ false
 
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
-![readme](/readmeid-5187.svg?v=dsdj64)
+![readme](/readmeid-5104.svg?v=dsdj64)
 
 
 
@@ -94,18 +106,6 @@ false
 I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
 
 ![readme](/readmeid-18237.svg?v=dsdj64)
-
-
-
-### StackUnit
-
-This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
-
-false
-
-I did rotate first because it made sense to me to position your object relative to the origin before stacking it around but you could do differently 
-
-![readme](/readmeid-5104.svg?v=dsdj64)
 
 
 
@@ -154,10 +154,6 @@ Copy and paste these as needed as well as index blocks. Reconnecting the index i
 This is the ShelfHeight. for each shelf unit
 
 266.6666666666667
-
-Shelf number is not a perfect parameter.  It calculates heights of shelves. you will will need to copy and paste Units and index equaitons inside the Molecule Stacker and connect the new Units to their own index numbers. 
-
-3
 
 ### StackerSideways
 
@@ -209,6 +205,14 @@ I did rotate first because it made sense to me to position your object relative 
 
 
 
+Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. 
+
+In this version I changed the equation to just be less than so that there wouldn't be an extra copy on the far end. It will make copies of the first side and move them into the middle.  I also changed the move to nudge the middle supports half of WoodThick back so they are centered.  
+
+![readme](/readmeid-10455.svg?v=nklqv8n)
+
+
+
 ### StackUnitSide
 
 This is t.  It reads true or false to turn on or off the movement. When the statement inside is True it is = 1 when false it = 0 I might adjust the ending bits and les than greater than tests depending on if I wanted an object at both ends as well as in the middle. 
@@ -221,13 +225,9 @@ I did rotate first because it made sense to me to position your object relative 
 
 
 
-Copy and paste these as needed as well as index blocks. Reconnecting the index input to the next level of the index ladder. Maybe only make as many as you need. I made too many and the project crashed for computing power. 
+Shelf number is not a perfect parameter.  It calculates heights of shelves. you will will need to copy and paste Units and index equaitons inside the Molecule Stacker and connect the new Units to their own index numbers. 
 
-In this version I changed the equation to just be less than so that there wouldn't be an extra copy on the far end. It will make copies of the first side and move them into the middle.  I also changed the move to nudge the middle supports half of WoodThick back so they are centered.  
-
-![readme](/readmeid-10455.svg?v=nklqv8n)
-
-
+3
 
 To make sure the cut layout works. Only connect the exact number of StackUnits that you need to the assembly 
 
